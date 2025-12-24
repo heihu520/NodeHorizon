@@ -1,0 +1,397 @@
+# NAME: Gaming_Custom
+# AUTHOR: Custom
+# UPDATED: 2025-11-30
+# DESCRIPTION: Comprehensive gaming platforms and services
+
+# Steam
+DOMAIN-SUFFIX,steampowered.com
+DOMAIN-SUFFIX,steamcommunity.com
+DOMAIN-SUFFIX,steamgames.com
+DOMAIN-SUFFIX,steamusercontent.com
+DOMAIN-SUFFIX,steamstatic.com
+DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
+DOMAIN-SUFFIX,steamserver.net
+
+# Epic Games
+DOMAIN-SUFFIX,epicgames.com
+DOMAIN-SUFFIX,epicgames.dev
+DOMAIN-SUFFIX,unrealengine.com
+DOMAIN-SUFFIX,fortnite.com
+DOMAIN-SUFFIX,easyanticheat.net
+
+# GOG (Good Old Games)
+DOMAIN-SUFFIX,gog.com
+DOMAIN-SUFFIX,gog-statics.com
+DOMAIN-SUFFIX,gogalaxy.com
+
+# Origin / EA App
+DOMAIN-SUFFIX,origin.com
+DOMAIN-SUFFIX,ea.com
+DOMAIN-SUFFIX,eaplay.com
+DOMAIN-SUFFIX,easports.com
+
+# Ubisoft Connect
+DOMAIN-SUFFIX,ubisoft.com
+DOMAIN-SUFFIX,ubi.com
+DOMAIN-SUFFIX,uplay.com
+
+# Battle.net (Blizzard)
+DOMAIN-SUFFIX,battle.net
+DOMAIN-SUFFIX,blizzard.com
+DOMAIN-SUFFIX,battlenet.com
+
+# Riot Games
+DOMAIN-SUFFIX,riotgames.com
+DOMAIN-SUFFIX,leagueoflegends.com
+DOMAIN-SUFFIX,valorant.com
+DOMAIN-SUFFIX,playvalorant.com
+
+# Rockstar Games
+DOMAIN-SUFFIX,rockstargames.com
+DOMAIN-SUFFIX,socialclub.rockstargames.com
+
+# Xbox
+DOMAIN-SUFFIX,xbox.com
+DOMAIN-SUFFIX,xboxlive.com
+DOMAIN-SUFFIX,xbox.net
+
+# PlayStation
+DOMAIN-SUFFIX,playstation.com
+DOMAIN-SUFFIX,playstation.net
+DOMAIN-SUFFIX,sonyentertainmentnetwork.com
+
+# Nintendo
+DOMAIN-SUFFIX,nintendo.com
+DOMAIN-SUFFIX,nintendo.net
+DOMAIN-SUFFIX,nintendoswitch.com
+
+# Itch.io
+DOMAIN-SUFFIX,itch.io
+DOMAIN-SUFFIX,itchio.io
+
+# Humble Bundle
+DOMAIN-SUFFIX,humblebundle.com
+DOMAIN-SUFFIX,humblecdn.com
+
+# Green Man Gaming
+DOMAIN-SUFFIX,greenmangaming.com
+
+# Fanatical
+DOMAIN-SUFFIX,fanatical.com
+
+# GamersGate
+DOMAIN-SUFFIX,gamersgate.com
+
+# Nexus Mods
+DOMAIN-SUFFIX,nexusmods.com
+
+# Mod.io
+DOMAIN-SUFFIX,mod.io
+
+# CurseForge
+DOMAIN-SUFFIX,curseforge.com
+
+# Discord (gaming)
+DOMAIN-SUFFIX,discord.com
+DOMAIN-SUFFIX,discord.gg
+
+# Twitch (gaming)
+DOMAIN-SUFFIX,twitch.tv
+
+# YouTube Gaming
+DOMAIN-SUFFIX,gaming.youtube.com
+
+# Facebook Gaming
+DOMAIN-SUFFIX,fb.gg
+
+# Roblox
+DOMAIN-SUFFIX,roblox.com
+DOMAIN-SUFFIX,rbxcdn.com
+
+# Minecraft
+DOMAIN-SUFFIX,minecraft.net
+DOMAIN-SUFFIX,mojang.com
+
+# Among Us
+DOMAIN-SUFFIX,innersloth.com
+
+# Fall Guys
+DOMAIN-SUFFIX,fallguys.com
+
+# Apex Legends
+DOMAIN-SUFFIX,playapex.com
+
+# Call of Duty
+DOMAIN-SUFFIX,callofduty.com
+
+# Destiny
+DOMAIN-SUFFIX,bungie.net
+DOMAIN-SUFFIX,destinytracker.com
+
+# Overwatch
+DOMAIN-SUFFIX,playoverwatch.com
+
+# Counter-Strike
+DOMAIN-SUFFIX,counter-strike.net
+
+# Dota 2
+DOMAIN-SUFFIX,dota2.com
+
+# PUBG
+DOMAIN-SUFFIX,pubg.com
+DOMAIN-SUFFIX,playbattlegrounds.com
+
+# Genshin Impact
+DOMAIN-SUFFIX,hoyoverse.com
+DOMAIN-SUFFIX,mihoyo.com
+
+# Honkai Star Rail
+DOMAIN-SUFFIX,hoyoverse.com
+
+# Final Fantasy XIV
+DOMAIN-SUFFIX,finalfantasyxiv.com
+DOMAIN-SUFFIX,square-enix.com
+
+# World of Warcraft
+DOMAIN-SUFFIX,worldofwarcraft.com
+DOMAIN-SUFFIX,wowhead.com
+
+# Guild Wars 2
+DOMAIN-SUFFIX,guildwars2.com
+DOMAIN-SUFFIX,arena.net
+
+# Elder Scrolls Online
+DOMAIN-SUFFIX,elderscrollsonline.com
+
+# Black Desert Online
+DOMAIN-SUFFIX,blackdesertonline.com
+
+# Path of Exile
+DOMAIN-SUFFIX,pathofexile.com
+DOMAIN-SUFFIX,grindinggear.com
+
+# Warframe
+DOMAIN-SUFFIX,warframe.com
+
+# Escape from Tarkov
+DOMAIN-SUFFIX,escapefromtarkov.com
+
+# Rainbow Six Siege
+DOMAIN-SUFFIX,rainbow6.com
+
+# Rocket League
+DOMAIN-SUFFIX,rocketleague.com
+
+# Dead by Daylight
+DOMAIN-SUFFIX,deadbydaylight.com
+
+# Sea of Thieves
+DOMAIN-SUFFIX,seaofthieves.com
+
+# Rust
+DOMAIN-SUFFIX,playrust.com
+
+# ARK: Survival Evolved
+DOMAIN-SUFFIX,playark.com
+
+# Valheim
+DOMAIN-SUFFIX,valheimgame.com
+
+# Terraria
+DOMAIN-SUFFIX,terraria.org
+
+# Stardew Valley
+DOMAIN-SUFFIX,stardewvalley.net
+
+# Hades
+DOMAIN-SUFFIX,supergiantgames.com
+
+# Hollow Knight
+DOMAIN-SUFFIX,hollowknight.com
+
+# Celeste
+DOMAIN-SUFFIX,celestegame.com
+
+# Undertale / Deltarune
+DOMAIN-SUFFIX,undertale.com
+DOMAIN-SUFFIX,deltarune.com
+
+# Factorio
+DOMAIN-SUFFIX,factorio.com
+
+# Satisfactory
+DOMAIN-SUFFIX,satisfactorygame.com
+
+# Deep Rock Galactic
+DOMAIN-SUFFIX,deeprockgalactic.com
+
+# Phasmophobia
+DOMAIN-SUFFIX,kineticgames.co.uk
+
+# VRChat
+DOMAIN-SUFFIX,vrchat.com
+
+# Rec Room
+DOMAIN-SUFFIX,recroom.com
+
+# Beat Saber
+DOMAIN-SUFFIX,beatsaber.com
+
+# Half-Life: Alyx
+DOMAIN-SUFFIX,half-life.com
+
+# Oculus / Meta Quest
+DOMAIN-SUFFIX,oculus.com
+DOMAIN-SUFFIX,oculuscdn.com
+
+# SteamVR
+DOMAIN-SUFFIX,steamvr.com
+
+# Viveport
+DOMAIN-SUFFIX,viveport.com
+
+# GeForce NOW
+DOMAIN-SUFFIX,geforcenow.com
+DOMAIN-SUFFIX,nvidia.com
+
+# Google Stadia (discontinued but may have legacy)
+DOMAIN-SUFFIX,stadia.com
+
+# Amazon Luna
+DOMAIN-SUFFIX,luna.amazon.com
+
+# Xbox Cloud Gaming
+DOMAIN-SUFFIX,xbox.com
+
+# PlayStation Plus Cloud
+DOMAIN-SUFFIX,playstation.com
+
+# Shadow
+DOMAIN-SUFFIX,shadow.tech
+
+# Parsec
+DOMAIN-SUFFIX,parsec.app
+
+# Moonlight
+DOMAIN-SUFFIX,moonlight-stream.org
+
+# Rainway
+DOMAIN-SUFFIX,rainway.com
+
+# Discord Nitro
+DOMAIN-SUFFIX,discord.com
+
+# Patreon (gaming creators)
+DOMAIN-SUFFIX,patreon.com
+
+# Ko-fi (gaming creators)
+DOMAIN-SUFFIX,ko-fi.com
+
+# Streamlabs
+DOMAIN-SUFFIX,streamlabs.com
+
+# StreamElements
+DOMAIN-SUFFIX,streamelements.com
+
+# OBS Project
+DOMAIN-SUFFIX,obsproject.com
+
+# XSplit
+DOMAIN-SUFFIX,xsplit.com
+
+# Elgato
+DOMAIN-SUFFIX,elgato.com
+
+# Razer
+DOMAIN-SUFFIX,razer.com
+DOMAIN-SUFFIX,razerzone.com
+
+# Logitech G
+DOMAIN-SUFFIX,logitechg.com
+
+# Corsair
+DOMAIN-SUFFIX,corsair.com
+
+# SteelSeries
+DOMAIN-SUFFIX,steelseries.com
+
+# HyperX
+DOMAIN-SUFFIX,hyperx.com
+
+# ASUS ROG
+DOMAIN-SUFFIX,rog.asus.com
+
+# MSI Gaming
+DOMAIN-SUFFIX,msi.com
+
+# Alienware
+DOMAIN-SUFFIX,alienware.com
+
+# IGN
+DOMAIN-SUFFIX,ign.com
+
+# GameSpot
+DOMAIN-SUFFIX,gamespot.com
+
+# Polygon
+DOMAIN-SUFFIX,polygon.com
+
+# Kotaku
+DOMAIN-SUFFIX,kotaku.com
+
+# PC Gamer
+DOMAIN-SUFFIX,pcgamer.com
+
+# Eurogamer
+DOMAIN-SUFFIX,eurogamer.net
+
+# Rock Paper Shotgun
+DOMAIN-SUFFIX,rockpapershotgun.com
+
+# Giant Bomb
+DOMAIN-SUFFIX,giantbomb.com
+
+# Metacritic
+DOMAIN-SUFFIX,metacritic.com
+
+# OpenCritic
+DOMAIN-SUFFIX,opencritic.com
+
+# HowLongToBeat
+DOMAIN-SUFFIX,howlongtobeat.com
+
+# SteamDB
+DOMAIN-SUFFIX,steamdb.info
+
+# IsThereAnyDeal
+DOMAIN-SUFFIX,isthereanydeal.com
+
+# CheapShark
+DOMAIN-SUFFIX,cheapshark.com
+
+# G2A
+DOMAIN-SUFFIX,g2a.com
+
+# Kinguin
+DOMAIN-SUFFIX,kinguin.net
+
+# CDKeys
+DOMAIN-SUFFIX,cdkeys.com
+
+# Eneba
+DOMAIN-SUFFIX,eneba.com
+
+# GameStop
+DOMAIN-SUFFIX,gamestop.com
+
+# Best Buy Gaming
+DOMAIN-SUFFIX,bestbuy.com
+
+# Amazon Gaming
+DOMAIN-SUFFIX,amazon.com
+
+# Target Gaming
+DOMAIN-SUFFIX,target.com
+
+# Walmart Gaming
+DOMAIN-SUFFIX,walmart.com

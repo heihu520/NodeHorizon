@@ -1,0 +1,702 @@
+# NAME: Developer_Custom
+# AUTHOR: Custom
+# UPDATED: 2025-11-30
+# DESCRIPTION: Comprehensive developer tools and services
+
+# GitHub (additional domains)
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,githubstatus.com
+DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,github.dev
+
+# GitLab
+DOMAIN-SUFFIX,gitlab.com
+DOMAIN-SUFFIX,gitlab.io
+
+# Bitbucket
+DOMAIN-SUFFIX,bitbucket.org
+DOMAIN-SUFFIX,bitbucket.io
+
+# Gitee
+DOMAIN-SUFFIX,gitee.com
+DOMAIN-SUFFIX,gitee.io
+
+# SourceForge
+DOMAIN-SUFFIX,sourceforge.net
+
+# Stack Overflow
+DOMAIN-SUFFIX,stackoverflow.com
+DOMAIN-SUFFIX,stackexchange.com
+DOMAIN-SUFFIX,serverfault.com
+DOMAIN-SUFFIX,superuser.com
+DOMAIN-SUFFIX,askubuntu.com
+
+# npm
+DOMAIN-SUFFIX,npmjs.com
+DOMAIN-SUFFIX,npmjs.org
+
+# PyPI
+DOMAIN-SUFFIX,pypi.org
+DOMAIN-SUFFIX,pythonhosted.org
+
+# Maven Central
+DOMAIN-SUFFIX,maven.org
+DOMAIN-SUFFIX,sonatype.org
+
+# NuGet
+DOMAIN-SUFFIX,nuget.org
+
+# RubyGems
+DOMAIN-SUFFIX,rubygems.org
+
+# Cargo (Rust)
+DOMAIN-SUFFIX,crates.io
+
+# Packagist (PHP)
+DOMAIN-SUFFIX,packagist.org
+
+# Go Packages
+DOMAIN-SUFFIX,pkg.go.dev
+
+# Docker Hub
+DOMAIN-SUFFIX,docker.com
+DOMAIN-SUFFIX,docker.io
+DOMAIN-SUFFIX,dockerhub.com
+
+# Quay.io
+DOMAIN-SUFFIX,quay.io
+
+# AWS
+DOMAIN-SUFFIX,aws.amazon.com
+DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,cloudfront.net
+
+# Google Cloud
+DOMAIN-SUFFIX,cloud.google.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,gcp.gvt2.com
+
+# Azure
+DOMAIN-SUFFIX,azure.com
+DOMAIN-SUFFIX,azure.net
+DOMAIN-SUFFIX,azurewebsites.net
+DOMAIN-SUFFIX,windows.net
+
+# DigitalOcean
+DOMAIN-SUFFIX,digitalocean.com
+DOMAIN-SUFFIX,digitaloceanspaces.com
+
+# Linode
+DOMAIN-SUFFIX,linode.com
+
+# Vultr
+DOMAIN-SUFFIX,vultr.com
+
+# Heroku
+DOMAIN-SUFFIX,heroku.com
+DOMAIN-SUFFIX,herokuapp.com
+
+# Netlify
+DOMAIN-SUFFIX,netlify.com
+DOMAIN-SUFFIX,netlify.app
+
+# Vercel
+DOMAIN-SUFFIX,vercel.com
+DOMAIN-SUFFIX,vercel.app
+
+# Cloudflare
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,cloudflare.net
+DOMAIN-SUFFIX,workers.dev
+DOMAIN-SUFFIX,pages.dev
+
+# Railway
+DOMAIN-SUFFIX,railway.app
+
+# Render
+DOMAIN-SUFFIX,render.com
+
+# Fly.io
+DOMAIN-SUFFIX,fly.io
+DOMAIN-SUFFIX,fly.dev
+
+# Supabase
+DOMAIN-SUFFIX,supabase.com
+DOMAIN-SUFFIX,supabase.co
+
+# Firebase
+DOMAIN-SUFFIX,firebase.com
+DOMAIN-SUFFIX,firebaseapp.com
+DOMAIN-SUFFIX,firebaseio.com
+
+# MongoDB Atlas
+DOMAIN-SUFFIX,mongodb.com
+DOMAIN-SUFFIX,mongodb.net
+
+# PostgreSQL
+DOMAIN-SUFFIX,postgresql.org
+
+# MySQL
+DOMAIN-SUFFIX,mysql.com
+
+# Redis
+DOMAIN-SUFFIX,redis.io
+DOMAIN-SUFFIX,redis.com
+
+# Elasticsearch
+DOMAIN-SUFFIX,elastic.co
+
+# Datadog
+DOMAIN-SUFFIX,datadog.com
+DOMAIN-SUFFIX,datadoghq.com
+
+# New Relic
+DOMAIN-SUFFIX,newrelic.com
+
+# Sentry
+DOMAIN-SUFFIX,sentry.io
+
+# LogRocket
+DOMAIN-SUFFIX,logrocket.com
+
+# Splunk
+DOMAIN-SUFFIX,splunk.com
+
+# Grafana
+DOMAIN-SUFFIX,grafana.com
+DOMAIN-SUFFIX,grafana.net
+
+# Prometheus
+DOMAIN-SUFFIX,prometheus.io
+
+# Jenkins
+DOMAIN-SUFFIX,jenkins.io
+
+# CircleCI
+DOMAIN-SUFFIX,circleci.com
+
+# Travis CI
+DOMAIN-SUFFIX,travis-ci.org
+DOMAIN-SUFFIX,travis-ci.com
+
+# GitHub Actions
+DOMAIN-SUFFIX,github.com
+
+# GitLab CI
+DOMAIN-SUFFIX,gitlab.com
+
+# Bitbucket Pipelines
+DOMAIN-SUFFIX,bitbucket.org
+
+# Azure DevOps
+DOMAIN-SUFFIX,dev.azure.com
+DOMAIN-SUFFIX,visualstudio.com
+
+# TeamCity
+DOMAIN-SUFFIX,jetbrains.com
+
+# Bamboo
+DOMAIN-SUFFIX,atlassian.com
+
+# Jira
+DOMAIN-SUFFIX,atlassian.com
+DOMAIN-SUFFIX,jira.com
+
+# Confluence
+DOMAIN-SUFFIX,atlassian.com
+DOMAIN-SUFFIX,confluence.com
+
+# Trello
+DOMAIN-SUFFIX,trello.com
+
+# Asana
+DOMAIN-SUFFIX,asana.com
+
+# Monday.com
+DOMAIN-SUFFIX,monday.com
+
+# Linear
+DOMAIN-SUFFIX,linear.app
+
+# Notion
+DOMAIN-SUFFIX,notion.so
+DOMAIN-SUFFIX,notion.site
+
+# Coda
+DOMAIN-SUFFIX,coda.io
+
+# Airtable
+DOMAIN-SUFFIX,airtable.com
+
+# Basecamp
+DOMAIN-SUFFIX,basecamp.com
+
+# ClickUp
+DOMAIN-SUFFIX,clickup.com
+
+# Shortcut (formerly Clubhouse)
+DOMAIN-SUFFIX,shortcut.com
+
+# Height
+DOMAIN-SUFFIX,height.app
+
+# Plane
+DOMAIN-SUFFIX,plane.so
+
+# VS Code
+DOMAIN-SUFFIX,code.visualstudio.com
+DOMAIN-SUFFIX,vscode.dev
+
+# JetBrains
+DOMAIN-SUFFIX,jetbrains.com
+DOMAIN-SUFFIX,intellij.net
+
+# Sublime Text
+DOMAIN-SUFFIX,sublimetext.com
+
+# Atom
+DOMAIN-SUFFIX,atom.io
+
+# Vim
+DOMAIN-SUFFIX,vim.org
+
+# Emacs
+DOMAIN-SUFFIX,gnu.org
+
+# Postman
+DOMAIN-SUFFIX,postman.com
+DOMAIN-SUFFIX,getpostman.com
+
+# Insomnia
+DOMAIN-SUFFIX,insomnia.rest
+
+# Hoppscotch
+DOMAIN-SUFFIX,hoppscotch.io
+
+# Swagger
+DOMAIN-SUFFIX,swagger.io
+
+# Stoplight
+DOMAIN-SUFFIX,stoplight.io
+
+# Figma
+DOMAIN-SUFFIX,figma.com
+
+# Sketch
+DOMAIN-SUFFIX,sketch.com
+
+# Adobe XD
+DOMAIN-SUFFIX,adobe.com
+
+# InVision
+DOMAIN-SUFFIX,invisionapp.com
+
+# Zeplin
+DOMAIN-SUFFIX,zeplin.io
+
+# Abstract
+DOMAIN-SUFFIX,abstract.com
+
+# Miro
+DOMAIN-SUFFIX,miro.com
+
+# FigJam
+DOMAIN-SUFFIX,figma.com
+
+# Excalidraw
+DOMAIN-SUFFIX,excalidraw.com
+
+# draw.io
+DOMAIN-SUFFIX,draw.io
+DOMAIN-SUFFIX,diagrams.net
+
+# Lucidchart
+DOMAIN-SUFFIX,lucidchart.com
+
+# Whimsical
+DOMAIN-SUFFIX,whimsical.com
+
+# Mermaid
+DOMAIN-SUFFIX,mermaid.js.org
+
+# PlantUML
+DOMAIN-SUFFIX,plantuml.com
+
+# CodePen
+DOMAIN-SUFFIX,codepen.io
+
+# JSFiddle
+DOMAIN-SUFFIX,jsfiddle.net
+
+# CodeSandbox
+DOMAIN-SUFFIX,codesandbox.io
+
+# StackBlitz
+DOMAIN-SUFFIX,stackblitz.com
+
+# Replit
+DOMAIN-SUFFIX,replit.com
+DOMAIN-SUFFIX,repl.it
+
+# Glitch
+DOMAIN-SUFFIX,glitch.com
+DOMAIN-SUFFIX,glitch.me
+
+# Observable
+DOMAIN-SUFFIX,observablehq.com
+
+# Jupyter
+DOMAIN-SUFFIX,jupyter.org
+
+# Google Colab
+DOMAIN-SUFFIX,colab.research.google.com
+
+# Kaggle
+DOMAIN-SUFFIX,kaggle.com
+
+# Databricks
+DOMAIN-SUFFIX,databricks.com
+
+# Anaconda
+DOMAIN-SUFFIX,anaconda.com
+DOMAIN-SUFFIX,anaconda.org
+
+# Conda
+DOMAIN-SUFFIX,conda.io
+
+# Read the Docs
+DOMAIN-SUFFIX,readthedocs.io
+DOMAIN-SUFFIX,readthedocs.org
+
+# GitBook
+DOMAIN-SUFFIX,gitbook.com
+DOMAIN-SUFFIX,gitbook.io
+
+# Docusaurus
+DOMAIN-SUFFIX,docusaurus.io
+
+# MkDocs
+DOMAIN-SUFFIX,mkdocs.org
+
+# Sphinx
+DOMAIN-SUFFIX,sphinx-doc.org
+
+# DevDocs
+DOMAIN-SUFFIX,devdocs.io
+
+# MDN Web Docs
+DOMAIN-SUFFIX,developer.mozilla.org
+
+# W3Schools
+DOMAIN-SUFFIX,w3schools.com
+
+# freeCodeCamp
+DOMAIN-SUFFIX,freecodecamp.org
+
+# LeetCode
+DOMAIN-SUFFIX,leetcode.com
+
+# HackerRank
+DOMAIN-SUFFIX,hackerrank.com
+
+# Codewars
+DOMAIN-SUFFIX,codewars.com
+
+# Exercism
+DOMAIN-SUFFIX,exercism.org
+
+# Project Euler
+DOMAIN-SUFFIX,projecteuler.net
+
+# Advent of Code
+DOMAIN-SUFFIX,adventofcode.com
+
+# Codeforces
+DOMAIN-SUFFIX,codeforces.com
+
+# TopCoder
+DOMAIN-SUFFIX,topcoder.com
+
+# AtCoder
+DOMAIN-SUFFIX,atcoder.jp
+
+# CodeChef
+DOMAIN-SUFFIX,codechef.com
+
+# SPOJ
+DOMAIN-SUFFIX,spoj.com
+
+# UVa Online Judge
+DOMAIN-SUFFIX,onlinejudge.org
+
+# Kattis
+DOMAIN-SUFFIX,open.kattis.com
+
+# HackerEarth
+DOMAIN-SUFFIX,hackerearth.com
+
+# Sphere Online Judge
+DOMAIN-SUFFIX,spoj.com
+
+# Regex101
+DOMAIN-SUFFIX,regex101.com
+
+# RegExr
+DOMAIN-SUFFIX,regexr.com
+
+# Can I Use
+DOMAIN-SUFFIX,caniuse.com
+
+# BrowserStack
+DOMAIN-SUFFIX,browserstack.com
+
+# Sauce Labs
+DOMAIN-SUFFIX,saucelabs.com
+
+# LambdaTest
+DOMAIN-SUFFIX,lambdatest.com
+
+# Percy
+DOMAIN-SUFFIX,percy.io
+
+# Chromatic
+DOMAIN-SUFFIX,chromatic.com
+
+# Storybook
+DOMAIN-SUFFIX,storybook.js.org
+
+# Bit.dev
+DOMAIN-SUFFIX,bit.dev
+
+# npm trends
+DOMAIN-SUFFIX,npmtrends.com
+
+# Bundlephobia
+DOMAIN-SUFFIX,bundlephobia.com
+
+# Package Phobia
+DOMAIN-SUFFIX,packagephobia.com
+
+# Snyk
+DOMAIN-SUFFIX,snyk.io
+
+# Dependabot
+DOMAIN-SUFFIX,dependabot.com
+
+# Renovate
+DOMAIN-SUFFIX,renovatebot.com
+
+# Greenkeeper
+DOMAIN-SUFFIX,greenkeeper.io
+
+# SonarQube
+DOMAIN-SUFFIX,sonarqube.org
+DOMAIN-SUFFIX,sonarcloud.io
+
+# CodeClimate
+DOMAIN-SUFFIX,codeclimate.com
+
+# Codecov
+DOMAIN-SUFFIX,codecov.io
+
+# Coveralls
+DOMAIN-SUFFIX,coveralls.io
+
+# Better Code Hub
+DOMAIN-SUFFIX,bettercodehub.com
+
+# DeepSource
+DOMAIN-SUFFIX,deepsource.io
+
+# Codacy
+DOMAIN-SUFFIX,codacy.com
+
+# ESLint
+DOMAIN-SUFFIX,eslint.org
+
+# Prettier
+DOMAIN-SUFFIX,prettier.io
+
+# Stylelint
+DOMAIN-SUFFIX,stylelint.io
+
+# Black (Python)
+DOMAIN-SUFFIX,black.readthedocs.io
+
+# Flake8
+DOMAIN-SUFFIX,flake8.pycqa.org
+
+# Pylint
+DOMAIN-SUFFIX,pylint.org
+
+# RuboCop
+DOMAIN-SUFFIX,rubocop.org
+
+# StandardJS
+DOMAIN-SUFFIX,standardjs.com
+
+# JSHint
+DOMAIN-SUFFIX,jshint.com
+
+# TSLint
+DOMAIN-SUFFIX,palantir.github.io
+
+# Checkstyle
+DOMAIN-SUFFIX,checkstyle.org
+
+# PMD
+DOMAIN-SUFFIX,pmd.github.io
+
+# SpotBugs
+DOMAIN-SUFFIX,spotbugs.github.io
+
+# FindBugs
+DOMAIN-SUFFIX,findbugs.sourceforge.net
+
+# Clippy (Rust)
+DOMAIN-SUFFIX,rust-lang.github.io
+
+# Go Vet
+DOMAIN-SUFFIX,golang.org
+
+# SwiftLint
+DOMAIN-SUFFIX,github.com
+
+# Android Lint
+DOMAIN-SUFFIX,developer.android.com
+
+# Xcode
+DOMAIN-SUFFIX,developer.apple.com
+
+# Android Studio
+DOMAIN-SUFFIX,developer.android.com
+
+# Flutter
+DOMAIN-SUFFIX,flutter.dev
+
+# React Native
+DOMAIN-SUFFIX,reactnative.dev
+
+# Expo
+DOMAIN-SUFFIX,expo.dev
+DOMAIN-SUFFIX,expo.io
+
+# Ionic
+DOMAIN-SUFFIX,ionicframework.com
+
+# Capacitor
+DOMAIN-SUFFIX,capacitorjs.com
+
+# Cordova
+DOMAIN-SUFFIX,cordova.apache.org
+
+# Electron
+DOMAIN-SUFFIX,electronjs.org
+
+# Tauri
+DOMAIN-SUFFIX,tauri.app
+
+# NW.js
+DOMAIN-SUFFIX,nwjs.io
+
+# Unity
+DOMAIN-SUFFIX,unity.com
+DOMAIN-SUFFIX,unity3d.com
+
+# Unreal Engine
+DOMAIN-SUFFIX,unrealengine.com
+
+# Godot
+DOMAIN-SUFFIX,godotengine.org
+
+# Blender
+DOMAIN-SUFFIX,blender.org
+
+# Three.js
+DOMAIN-SUFFIX,threejs.org
+
+# Babylon.js
+DOMAIN-SUFFIX,babylonjs.com
+
+# PlayCanvas
+DOMAIN-SUFFIX,playcanvas.com
+
+# Phaser
+DOMAIN-SUFFIX,phaser.io
+
+# PixiJS
+DOMAIN-SUFFIX,pixijs.com
+
+# Matter.js
+DOMAIN-SUFFIX,brm.io
+
+# p5.js
+DOMAIN-SUFFIX,p5js.org
+
+# Processing
+DOMAIN-SUFFIX,processing.org
+
+# OpenFrameworks
+DOMAIN-SUFFIX,openframeworks.cc
+
+# Cinder
+DOMAIN-SUFFIX,libcinder.org
+
+# LÖVE
+DOMAIN-SUFFIX,love2d.org
+
+# Raylib
+DOMAIN-SUFFIX,raylib.com
+
+# SDL
+DOMAIN-SUFFIX,libsdl.org
+
+# SFML
+DOMAIN-SUFFIX,sfml-dev.org
+
+# Allegro
+DOMAIN-SUFFIX,liballeg.org
+
+# Cocos2d
+DOMAIN-SUFFIX,cocos2d-x.org
+
+# Corona SDK
+DOMAIN-SUFFIX,coronalabs.com
+
+# Defold
+DOMAIN-SUFFIX,defold.com
+
+# GameMaker
+DOMAIN-SUFFIX,yoyogames.com
+
+# Construct
+DOMAIN-SUFFIX,construct.net
+
+# GDevelop
+DOMAIN-SUFFIX,gdevelop.io
+
+# RPG Maker
+DOMAIN-SUFFIX,rpgmakerweb.com
+
+# Ren'Py
+DOMAIN-SUFFIX,renpy.org
+
+# Twine
+DOMAIN-SUFFIX,twinery.org
+
+# Ink
+DOMAIN-SUFFIX,inklestudios.com
+
+# Yarn Spinner
+DOMAIN-SUFFIX,yarnspinner.dev
+
+# Dialogic
+DOMAIN-SUFFIX,dialogic.pro
+
+# Articy Draft
+DOMAIN-SUFFIX,articy.com
+
+# ChatMapper
+DOMAIN-SUFFIX,chatmapper.com

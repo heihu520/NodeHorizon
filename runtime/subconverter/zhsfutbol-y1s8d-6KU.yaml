@@ -1,0 +1,1421 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:9090
+proxies:
+  - {name: 🇹🇼 ⚠️订阅失效 登录 zhs.tw 获取⚠️, server: zhs.ooo, port: 404, type: ss, cipher: aes-128-gcm, password: zhshi.gitlab.io}
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - ⚖️ 负载均衡
+      - 🇭🇰 香港节点
+      - 🇺🇲 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇹🇼 台湾节点
+      - 🇬🇧 英国节点
+      - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇦🇺 澳洲节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇮🇳 印度节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 🚀 手动切换
+    type: select
+    proxies:
+      - 🇹🇼 ⚠️订阅失效 登录 zhs.tw 获取⚠️
+  - name: ♻️ 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇹🇼 ⚠️订阅失效 登录 zhs.tw 获取⚠️
+  - name: ⚖️ 负载均衡
+    type: load-balance
+    strategy: consistent-hashing
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇹🇼 ⚠️订阅失效 登录 zhs.tw 获取⚠️
+  - name: 📹 油管视频
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - ⚖️ 负载均衡
+      - 🇭🇰 香港节点
+      - 🇺🇲 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇹🇼 台湾节点
+      - 🇬🇧 英国节点
+      - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 🎥 奈飞视频
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - ⚖️ 负载均衡
+      - 🇭🇰 香港节点
+      - 🇺🇲 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇹🇼 台湾节点
+      - 🇬🇧 英国节点
+      - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 🎬 迪士尼+
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - ⚖️ 负载均衡
+      - 🇭🇰 香港节点
+      - 🇺🇲 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇹🇼 台湾节点
+      - 🇬🇧 英国节点
+      - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 📺 哔哩哔哩
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🇭🇰 香港节点
+      - 🇹🇼 台湾节点
+  - name: 🎵 Spotify
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - ⚖️ 负载均衡
+      - 🇭🇰 香港节点
+      - 🇺🇲 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇹🇼 台湾节点
+      - 🇬🇧 英国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 🎮 游戏平台
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - ⚖️ 负载均衡
+      - 🇭🇰 香港节点
+      - 🇺🇲 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇹🇼 台湾节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 🐦 Twitter
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - ⚖️ 负载均衡
+      - 🇭🇰 香港节点
+      - 🇺🇲 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇹🇼 台湾节点
+      - 🇬🇧 英国节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 📘 Facebook
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - ⚖️ 负载均衡
+      - 🇭🇰 香港节点
+      - 🇺🇲 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇹🇼 台湾节点
+      - 🇬🇧 英国节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 📷 Instagram
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - ⚖️ 负载均衡
+      - 🇭🇰 香港节点
+      - 🇺🇲 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇹🇼 台湾节点
+      - 🇬🇧 英国节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 🐙 GitHub
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - ⚖️ 负载均衡
+      - 🇭🇰 香港节点
+      - 🇺🇲 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇹🇼 台湾节点
+      - 🇬🇧 英国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 💻 开发工具
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - ⚖️ 负载均衡
+      - 🇭🇰 香港节点
+      - 🇺🇲 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇹🇼 台湾节点
+      - 🇬🇧 英国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 🤖 AI 服务
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - ⚖️ 负载均衡
+      - 🇺🇲 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇭🇰 香港节点
+      - 🇹🇼 台湾节点
+      - 🇬🇧 英国节点
+      - 🇨🇦 加拿大节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 🎬 流媒体
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - ⚖️ 负载均衡
+      - 🇭🇰 香港节点
+      - 🇺🇲 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇹🇼 台湾节点
+      - 🇬🇧 英国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 💬 社交平台
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - ⚖️ 负载均衡
+      - 🇭🇰 香港节点
+      - 🇺🇲 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇹🇼 台湾节点
+      - 🇬🇧 英国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 📲 电报信息
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - ⚖️ 负载均衡
+      - 🇭🇰 香港节点
+      - 🇺🇲 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇹🇼 台湾节点
+      - 🇬🇧 英国节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - ⚖️ 负载均衡
+      - 🇭🇰 香港节点
+      - 🇺🇲 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇹🇼 台湾节点
+      - 🇬🇧 英国节点
+      - 🚀 手动切换
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - ⚖️ 负载均衡
+      - 🇭🇰 香港节点
+      - 🇺🇲 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇹🇼 台湾节点
+      - 🇬🇧 英国节点
+      - 🚀 手动切换
+  - name: 📢 谷歌FCM
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - ⚖️ 负载均衡
+      - 🇭🇰 香港节点
+      - 🇺🇲 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇹🇼 台湾节点
+      - 🇬🇧 英国节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - ♻️ 自动选择
+  - name: 🛑 广告拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - ⚖️ 负载均衡
+      - 🎯 全球直连
+      - 🇭🇰 香港节点
+      - 🇺🇲 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇹🇼 台湾节点
+      - 🇬🇧 英国节点
+      - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🚀 手动切换
+  - name: 🇭🇰 香港节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - DIRECT
+  - name: 🇯🇵 日本节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - DIRECT
+  - name: 🇺🇲 美国节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 150
+    proxies:
+      - DIRECT
+  - name: 🇸🇬 新加坡节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - DIRECT
+  - name: 🇹🇼 台湾节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - DIRECT
+  - name: 🇬🇧 英国节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - DIRECT
+  - name: 🇰🇷 韩国节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - DIRECT
+  - name: 🇨🇦 加拿大节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - DIRECT
+  - name: 🇦🇺 澳洲节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - DIRECT
+  - name: 🇩🇪 德国节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - DIRECT
+  - name: 🇫🇷 法国节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - DIRECT
+  - name: 🇮🇳 印度节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - DIRECT
+rules:
+  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
+  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
+  - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
+  - DOMAIN-SUFFIX,lan,🎯 全球直连
+  - DOMAIN-SUFFIX,local,🎯 全球直连
+  - DOMAIN-SUFFIX,localhost,🎯 全球直连
+  - IP-CIDR,0.0.0.0/8,🎯 全球直连,no-resolve
+  - IP-CIDR,10.0.0.0/8,🎯 全球直连,no-resolve
+  - IP-CIDR,100.64.0.0/10,🎯 全球直连,no-resolve
+  - IP-CIDR,127.0.0.0/8,🎯 全球直连,no-resolve
+  - IP-CIDR,172.16.0.0/12,🎯 全球直连,no-resolve
+  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,198.18.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,224.0.0.0/4,🎯 全球直连,no-resolve
+  - IP-CIDR6,::1/128,🎯 全球直连,no-resolve
+  - IP-CIDR6,fc00::/7,🎯 全球直连,no-resolve
+  - IP-CIDR6,fe80::/10,🎯 全球直连,no-resolve
+  - IP-CIDR6,fd00::/8,🎯 全球直连,no-resolve
+  - DOMAIN,instant.arubanetworks.com,🎯 全球直连
+  - DOMAIN,setmeup.arubanetworks.com,🎯 全球直连
+  - DOMAIN,router.asus.com,🎯 全球直连
+  - DOMAIN,www.asusrouter.com,🎯 全球直连
+  - DOMAIN-SUFFIX,hiwifi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,leike.cc,🎯 全球直连
+  - DOMAIN-SUFFIX,miwifi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,my.router,🎯 全球直连
+  - DOMAIN-SUFFIX,p.to,🎯 全球直连
+  - DOMAIN-SUFFIX,peiluyou.com,🎯 全球直连
+  - DOMAIN-SUFFIX,phicomm.me,🎯 全球直连
+  - DOMAIN-SUFFIX,router.ctc,🎯 全球直连
+  - DOMAIN-SUFFIX,routerlogin.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tendawifi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zte.home,🎯 全球直连
+  - DOMAIN-SUFFIX,tplogin.cn,🎯 全球直连
+  - DOMAIN-SUFFIX,wifi.cmcc,🎯 全球直连
+  - DOMAIN-SUFFIX,ol.epicgames.com,🎯 全球直连
+  - DOMAIN-SUFFIX,dizhensubao.getui.com,🎯 全球直连
+  - DOMAIN,dl.google.com,🎯 全球直连
+  - DOMAIN-SUFFIX,googletraveladservices.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,🎯 全球直连
+  - DOMAIN,origin-a.akamaihd.net,🎯 全球直连
+  - DOMAIN,fairplay.l.qq.com,🎯 全球直连
+  - DOMAIN,livew.l.qq.com,🎯 全球直连
+  - DOMAIN,vd.l.qq.com,🎯 全球直连
+  - DOMAIN,errlog.umeng.com,🎯 全球直连
+  - DOMAIN,msg.umeng.com,🎯 全球直连
+  - DOMAIN,msg.umengcloud.com,🎯 全球直连
+  - DOMAIN,tracking.miui.com,🎯 全球直连
+  - DOMAIN,app.adjust.com,🎯 全球直连
+  - DOMAIN,bdtj.tagtic.cn,🎯 全球直连
+  - DOMAIN,rewards.hypixel.net,🎯 全球直连
+  - DOMAIN-SUFFIX,koodomobile.com,🎯 全球直连
+  - DOMAIN-SUFFIX,koodomobile.ca,🎯 全球直连
+  - DOMAIN-SUFFIX,youtu.be,🎬 流媒体
+  - DOMAIN-SUFFIX,youtube-nocookie.com,🎬 流媒体
+  - DOMAIN-SUFFIX,youtubei.googleapis.com,🎬 流媒体
+  - DOMAIN-SUFFIX,ytimg.com,🎬 流媒体
+  - DOMAIN-SUFFIX,yt3.ggpht.com,🎬 流媒体
+  - DOMAIN-SUFFIX,googlevideo.com,🎬 流媒体
+  - DOMAIN-SUFFIX,nflxext.com,🎬 流媒体
+  - DOMAIN-SUFFIX,nflximg.com,🎬 流媒体
+  - DOMAIN-SUFFIX,nflximg.net,🎬 流媒体
+  - DOMAIN-SUFFIX,nflxso.net,🎬 流媒体
+  - DOMAIN-SUFFIX,nflxvideo.net,🎬 流媒体
+  - DOMAIN-SUFFIX,netflixdnstest0.com,🎬 流媒体
+  - DOMAIN-SUFFIX,netflixdnstest1.com,🎬 流媒体
+  - DOMAIN-SUFFIX,netflixdnstest2.com,🎬 流媒体
+  - DOMAIN-SUFFIX,disneyplus.com,🎬 流媒体
+  - DOMAIN-SUFFIX,disney-plus.net,🎬 流媒体
+  - DOMAIN-SUFFIX,disneystreaming.com,🎬 流媒体
+  - DOMAIN-SUFFIX,dssott.com,🎬 流媒体
+  - DOMAIN-SUFFIX,bamgrid.com,🎬 流媒体
+  - DOMAIN-SUFFIX,hbo.com,🎬 流媒体
+  - DOMAIN-SUFFIX,hbogo.com,🎬 流媒体
+  - DOMAIN-SUFFIX,hbomax.com,🎬 流媒体
+  - DOMAIN-SUFFIX,hbonow.com,🎬 流媒体
+  - DOMAIN-SUFFIX,max.com,🎬 流媒体
+  - DOMAIN-SUFFIX,primevideo.com,🎬 流媒体
+  - DOMAIN-SUFFIX,amazonvideo.com,🎬 流媒体
+  - DOMAIN-SUFFIX,media-amazon.com,🎬 流媒体
+  - DOMAIN-SUFFIX,aiv-cdn.net,🎬 流媒体
+  - DOMAIN-SUFFIX,aiv-delivery.net,🎬 流媒体
+  - DOMAIN-SUFFIX,tv.apple.com,🎬 流媒体
+  - DOMAIN-SUFFIX,appletvplus.com,🎬 流媒体
+  - DOMAIN-SUFFIX,hulu.com,🎬 流媒体
+  - DOMAIN-SUFFIX,huluim.com,🎬 流媒体
+  - DOMAIN-SUFFIX,hulustream.com,🎬 流媒体
+  - DOMAIN-SUFFIX,paramountplus.com,🎬 流媒体
+  - DOMAIN-SUFFIX,cbsi.com,🎬 流媒体
+  - DOMAIN-SUFFIX,cbsaavideo.com,🎬 流媒体
+  - DOMAIN-SUFFIX,cbsivideo.com,🎬 流媒体
+  - DOMAIN-SUFFIX,peacocktv.com,🎬 流媒体
+  - DOMAIN-SUFFIX,peacock.com,🎬 流媒体
+  - DOMAIN-SUFFIX,discoveryplus.com,🎬 流媒体
+  - DOMAIN-SUFFIX,discovery.com,🎬 流媒体
+  - DOMAIN-SUFFIX,dplay.com,🎬 流媒体
+  - DOMAIN-SUFFIX,twitch.tv,🎬 流媒体
+  - DOMAIN-SUFFIX,twitchcdn.net,🎬 流媒体
+  - DOMAIN-SUFFIX,twitch.a2z.com,🎬 流媒体
+  - DOMAIN-SUFFIX,jtvnw.net,🎬 流媒体
+  - DOMAIN-SUFFIX,tiktok.com,🎬 流媒体
+  - DOMAIN-SUFFIX,tiktokcdn.com,🎬 流媒体
+  - DOMAIN-SUFFIX,tiktokv.com,🎬 流媒体
+  - DOMAIN-SUFFIX,musical.ly,🎬 流媒体
+  - DOMAIN-SUFFIX,byteoversea.com,🎬 流媒体
+  - DOMAIN-SUFFIX,ibytedtos.com,🎬 流媒体
+  - DOMAIN-SUFFIX,vimeo.com,🎬 流媒体
+  - DOMAIN-SUFFIX,vimeocdn.com,🎬 流媒体
+  - DOMAIN-SUFFIX,dailymotion.com,🎬 流媒体
+  - DOMAIN-SUFFIX,dmcdn.net,🎬 流媒体
+  - DOMAIN-SUFFIX,crunchyroll.com,🎬 流媒体
+  - DOMAIN-SUFFIX,vrv.co,🎬 流媒体
+  - DOMAIN-SUFFIX,funimation.com,🎬 流媒体
+  - DOMAIN-SUFFIX,funimationdigital.com,🎬 流媒体
+  - DOMAIN-SUFFIX,plex.tv,🎬 流媒体
+  - DOMAIN-SUFFIX,plex.direct,🎬 流媒体
+  - DOMAIN-SUFFIX,emby.media,🎬 流媒体
+  - DOMAIN-SUFFIX,embyserver.media,🎬 流媒体
+  - DOMAIN-SUFFIX,jellyfin.org,🎬 流媒体
+  - DOMAIN-SUFFIX,soundcloud.com,🎬 流媒体
+  - DOMAIN-SUFFIX,sndcdn.com,🎬 流媒体
+  - DOMAIN-SUFFIX,pandora.com,🎬 流媒体
+  - DOMAIN-SUFFIX,pandora.net,🎬 流媒体
+  - DOMAIN-SUFFIX,deezer.com,🎬 流媒体
+  - DOMAIN-SUFFIX,dzcdn.net,🎬 流媒体
+  - DOMAIN-SUFFIX,tidal.com,🎬 流媒体
+  - DOMAIN-SUFFIX,tidalhifi.com,🎬 流媒体
+  - DOMAIN-SUFFIX,music.apple.com,🎬 流媒体
+  - DOMAIN-SUFFIX,music.youtube.com,🎬 流媒体
+  - DOMAIN-SUFFIX,music.amazon.com,🎬 流媒体
+  - DOMAIN-SUFFIX,viu.com,🎬 流媒体
+  - DOMAIN-SUFFIX,viu.tv,🎬 流媒体
+  - DOMAIN-SUFFIX,iflix.com,🎬 流媒体
+  - DOMAIN-SUFFIX,hotstar.com,🎬 流媒体
+  - DOMAIN-SUFFIX,hotstar.live,🎬 流媒体
+  - DOMAIN-SUFFIX,zee5.com,🎬 流媒体
+  - DOMAIN-SUFFIX,sonyliv.com,🎬 流媒体
+  - DOMAIN-SUFFIX,voot.com,🎬 流媒体
+  - DOMAIN-SUFFIX,mxplayer.in,🎬 流媒体
+  - DOMAIN-SUFFIX,erosnow.com,🎬 流媒体
+  - DOMAIN-SUFFIX,altbalaji.com,🎬 流媒体
+  - DOMAIN-SUFFIX,hooq.tv,🎬 流媒体
+  - DOMAIN-SUFFIX,wavve.com,🎬 流媒体
+  - DOMAIN-SUFFIX,tving.com,🎬 流媒体
+  - DOMAIN-SUFFIX,watcha.com,🎬 流媒体
+  - DOMAIN-SUFFIX,abema.tv,🎬 流媒体
+  - DOMAIN-SUFFIX,abema.io,🎬 流媒体
+  - DOMAIN-SUFFIX,nicovideo.jp,🎬 流媒体
+  - DOMAIN-SUFFIX,niconico.com,🎬 流媒体
+  - DOMAIN-SUFFIX,gyao.yahoo.co.jp,🎬 流媒体
+  - DOMAIN-SUFFIX,unext.jp,🎬 流媒体
+  - DOMAIN-SUFFIX,paravi.jp,🎬 流媒体
+  - DOMAIN-SUFFIX,fod.fujitv.co.jp,🎬 流媒体
+  - DOMAIN-SUFFIX,tver.jp,🎬 流媒体
+  - DOMAIN-SUFFIX,dazn.com,🎬 流媒体
+  - DOMAIN-SUFFIX,dazndn.com,🎬 流媒体
+  - DOMAIN-SUFFIX,espn.com,🎬 流媒体
+  - DOMAIN-SUFFIX,espncdn.com,🎬 流媒体
+  - DOMAIN-SUFFIX,fubo.tv,🎬 流媒体
+  - DOMAIN-SUFFIX,fubotv.com,🎬 流媒体
+  - DOMAIN-SUFFIX,sling.com,🎬 流媒体
+  - DOMAIN-SUFFIX,slingtv.com,🎬 流媒体
+  - DOMAIN-SUFFIX,tv.youtube.com,🎬 流媒体
+  - DOMAIN-SUFFIX,pluto.tv,🎬 流媒体
+  - DOMAIN-SUFFIX,plutotv.net,🎬 流媒体
+  - DOMAIN-SUFFIX,tubi.tv,🎬 流媒体
+  - DOMAIN-SUFFIX,tubitv.com,🎬 流媒体
+  - DOMAIN-SUFFIX,crackle.com,🎬 流媒体
+  - DOMAIN-SUFFIX,vudu.com,🎬 流媒体
+  - DOMAIN-SUFFIX,rakuten.tv,🎬 流媒体
+  - DOMAIN-SUFFIX,nowtv.com,🎬 流媒体
+  - DOMAIN-SUFFIX,stan.com.au,🎬 流媒体
+  - DOMAIN-SUFFIX,binge.com.au,🎬 流媒体
+  - DOMAIN-SUFFIX,kayosports.com.au,🎬 流媒体
+  - DOMAIN-SUFFIX,optussport.com.au,🎬 流媒体
+  - DOMAIN-SUFFIX,foxtel.com.au,🎬 流媒体
+  - DOMAIN-SUFFIX,sky.com,🎬 流媒体
+  - DOMAIN-SUFFIX,skygo.co.nz,🎬 流媒体
+  - DOMAIN-SUFFIX,showtime.com,🎬 流媒体
+  - DOMAIN-SUFFIX,sho.com,🎬 流媒体
+  - DOMAIN-SUFFIX,starz.com,🎬 流媒体
+  - DOMAIN-SUFFIX,cinemax.com,🎬 流媒体
+  - DOMAIN-SUFFIX,mgmplus.com,🎬 流媒体
+  - DOMAIN-SUFFIX,epix.com,🎬 流媒体
+  - DOMAIN-SUFFIX,amcplus.com,🎬 流媒体
+  - DOMAIN-SUFFIX,amc.com,🎬 流媒体
+  - DOMAIN-SUFFIX,shudder.com,🎬 流媒体
+  - DOMAIN-SUFFIX,sundancenow.com,🎬 流媒体
+  - DOMAIN-SUFFIX,acorn.tv,🎬 流媒体
+  - DOMAIN-SUFFIX,britbox.com,🎬 流媒体
+  - DOMAIN-SUFFIX,criterionchannel.com,🎬 流媒体
+  - DOMAIN-SUFFIX,mubi.com,🎬 流媒体
+  - DOMAIN-SUFFIX,kanopy.com,🎬 流媒体
+  - DOMAIN-SUFFIX,hoopladigital.com,🎬 流媒体
+  - DOMAIN-SUFFIX,overdrive.com,🎬 流媒体
+  - DOMAIN-SUFFIX,libbyapp.com,🎬 流媒体
+  - DOMAIN-SUFFIX,audible.com,🎬 流媒体
+  - DOMAIN-SUFFIX,audible.co.uk,🎬 流媒体
+  - DOMAIN-SUFFIX,scribd.com,🎬 流媒体
+  - DOMAIN-SUFFIX,blinkist.com,🎬 流媒体
+  - DOMAIN-SUFFIX,masterclass.com,🎬 流媒体
+  - DOMAIN-SUFFIX,skillshare.com,🎬 流媒体
+  - DOMAIN-SUFFIX,coursera.org,🎬 流媒体
+  - DOMAIN-SUFFIX,udemy.com,🎬 流媒体
+  - DOMAIN-SUFFIX,linkedin.com,🎬 流媒体
+  - DOMAIN-SUFFIX,pluralsight.com,🎬 流媒体
+  - DOMAIN-SUFFIX,codecademy.com,🎬 流媒体
+  - DOMAIN-SUFFIX,khanacademy.org,🎬 流媒体
+  - DOMAIN-SUFFIX,edx.org,🎬 流媒体
+  - DOMAIN-SUFFIX,futurelearn.com,🎬 流媒体
+  - DOMAIN-SUFFIX,domestika.org,🎬 流媒体
+  - DOMAIN-SUFFIX,steampowered.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,steamcommunity.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,steamgames.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,steamusercontent.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,steamstatic.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,steamserver.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,epicgames.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,epicgames.dev,🎮 游戏平台
+  - DOMAIN-SUFFIX,unrealengine.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,fortnite.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,easyanticheat.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,gog.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,gog-statics.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,gogalaxy.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,origin.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,ea.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,eaplay.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,easports.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,ubisoft.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,ubi.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,uplay.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,battle.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,blizzard.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,battlenet.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,riotgames.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,leagueoflegends.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,valorant.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,playvalorant.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,rockstargames.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,socialclub.rockstargames.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,xbox.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,xboxlive.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,xbox.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,playstation.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,playstation.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendoswitch.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,itch.io,🎮 游戏平台
+  - DOMAIN-SUFFIX,itchio.io,🎮 游戏平台
+  - DOMAIN-SUFFIX,humblebundle.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,humblecdn.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,greenmangaming.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,fanatical.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,gamersgate.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,nexusmods.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,mod.io,🎮 游戏平台
+  - DOMAIN-SUFFIX,curseforge.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,discord.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,discord.gg,🎮 游戏平台
+  - DOMAIN-SUFFIX,twitch.tv,🎮 游戏平台
+  - DOMAIN-SUFFIX,gaming.youtube.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,fb.gg,🎮 游戏平台
+  - DOMAIN-SUFFIX,roblox.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,rbxcdn.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,minecraft.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,mojang.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,innersloth.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,fallguys.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,playapex.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,callofduty.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,bungie.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,destinytracker.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,playoverwatch.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,counter-strike.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,dota2.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,pubg.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,playbattlegrounds.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,hoyoverse.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,mihoyo.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,hoyoverse.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,finalfantasyxiv.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,square-enix.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,worldofwarcraft.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,wowhead.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,guildwars2.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,arena.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,elderscrollsonline.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,blackdesertonline.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,pathofexile.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,grindinggear.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,warframe.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,escapefromtarkov.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,rainbow6.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,rocketleague.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,deadbydaylight.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,seaofthieves.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,playrust.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,playark.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,valheimgame.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,terraria.org,🎮 游戏平台
+  - DOMAIN-SUFFIX,stardewvalley.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,supergiantgames.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,hollowknight.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,celestegame.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,undertale.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,deltarune.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,factorio.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,satisfactorygame.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,deeprockgalactic.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,kineticgames.co.uk,🎮 游戏平台
+  - DOMAIN-SUFFIX,vrchat.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,recroom.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,beatsaber.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,half-life.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,oculus.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,oculuscdn.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,steamvr.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,viveport.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,geforcenow.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,nvidia.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,stadia.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,luna.amazon.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,xbox.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,playstation.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,shadow.tech,🎮 游戏平台
+  - DOMAIN-SUFFIX,parsec.app,🎮 游戏平台
+  - DOMAIN-SUFFIX,moonlight-stream.org,🎮 游戏平台
+  - DOMAIN-SUFFIX,rainway.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,discord.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,patreon.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,ko-fi.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,streamlabs.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,streamelements.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,obsproject.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,xsplit.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,elgato.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,razer.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,razerzone.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,logitechg.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,corsair.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,steelseries.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,hyperx.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,rog.asus.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,msi.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,alienware.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,ign.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,gamespot.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,polygon.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,kotaku.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,pcgamer.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,eurogamer.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,rockpapershotgun.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,giantbomb.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,metacritic.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,opencritic.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,howlongtobeat.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,steamdb.info,🎮 游戏平台
+  - DOMAIN-SUFFIX,isthereanydeal.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,cheapshark.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,g2a.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,kinguin.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,cdkeys.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,eneba.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,gamestop.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,bestbuy.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,amazon.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,target.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,walmart.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,x.com,💬 社交平台
+  - DOMAIN-SUFFIX,twitter.com,💬 社交平台
+  - DOMAIN-SUFFIX,twimg.com,💬 社交平台
+  - DOMAIN-SUFFIX,t.co,💬 社交平台
+  - DOMAIN-SUFFIX,twitter.jp,💬 社交平台
+  - DOMAIN-SUFFIX,facebook.com,💬 社交平台
+  - DOMAIN-SUFFIX,facebook.net,💬 社交平台
+  - DOMAIN-SUFFIX,fb.com,💬 社交平台
+  - DOMAIN-SUFFIX,fb.me,💬 社交平台
+  - DOMAIN-SUFFIX,fbcdn.net,💬 社交平台
+  - DOMAIN-SUFFIX,fbsbx.com,💬 社交平台
+  - DOMAIN-SUFFIX,messenger.com,💬 社交平台
+  - DOMAIN-SUFFIX,m.me,💬 社交平台
+  - DOMAIN-SUFFIX,instagram.com,💬 社交平台
+  - DOMAIN-SUFFIX,cdninstagram.com,💬 社交平台
+  - DOMAIN-SUFFIX,instagr.am,💬 社交平台
+  - DOMAIN-SUFFIX,whatsapp.com,💬 社交平台
+  - DOMAIN-SUFFIX,whatsapp.net,💬 社交平台
+  - DOMAIN-SUFFIX,wa.me,💬 社交平台
+  - DOMAIN-SUFFIX,threads.net,💬 社交平台
+  - DOMAIN-SUFFIX,linkedin.com,💬 社交平台
+  - DOMAIN-SUFFIX,licdn.com,💬 社交平台
+  - DOMAIN-SUFFIX,reddit.com,💬 社交平台
+  - DOMAIN-SUFFIX,redd.it,💬 社交平台
+  - DOMAIN-SUFFIX,redditmedia.com,💬 社交平台
+  - DOMAIN-SUFFIX,redditstatic.com,💬 社交平台
+  - DOMAIN-SUFFIX,pinterest.com,💬 社交平台
+  - DOMAIN-SUFFIX,pinimg.com,💬 社交平台
+  - DOMAIN-SUFFIX,snapchat.com,💬 社交平台
+  - DOMAIN-SUFFIX,sc-cdn.net,💬 社交平台
+  - DOMAIN-SUFFIX,snap.com,💬 社交平台
+  - DOMAIN-SUFFIX,discord.com,💬 社交平台
+  - DOMAIN-SUFFIX,discord.gg,💬 社交平台
+  - DOMAIN-SUFFIX,discordapp.com,💬 社交平台
+  - DOMAIN-SUFFIX,discordapp.net,💬 社交平台
+  - DOMAIN-SUFFIX,discord.media,💬 社交平台
+  - DOMAIN-SUFFIX,slack.com,💬 社交平台
+  - DOMAIN-SUFFIX,slack-edge.com,💬 社交平台
+  - DOMAIN-SUFFIX,slack-imgs.com,💬 社交平台
+  - DOMAIN-SUFFIX,telegram.org,💬 社交平台
+  - DOMAIN-SUFFIX,telegram.me,💬 社交平台
+  - DOMAIN-SUFFIX,t.me,💬 社交平台
+  - DOMAIN-SUFFIX,telegra.ph,💬 社交平台
+  - DOMAIN-SUFFIX,telesco.pe,💬 社交平台
+  - DOMAIN-SUFFIX,signal.org,💬 社交平台
+  - DOMAIN-SUFFIX,signal.me,💬 社交平台
+  - DOMAIN-SUFFIX,mastodon.social,💬 社交平台
+  - DOMAIN-SUFFIX,mastodon.online,💬 社交平台
+  - DOMAIN-SUFFIX,mstdn.social,💬 社交平台
+  - DOMAIN-SUFFIX,bsky.app,💬 社交平台
+  - DOMAIN-SUFFIX,bsky.social,💬 社交平台
+  - DOMAIN-SUFFIX,tumblr.com,💬 社交平台
+  - DOMAIN-SUFFIX,tmblr.co,💬 社交平台
+  - DOMAIN-SUFFIX,flickr.com,💬 社交平台
+  - DOMAIN-SUFFIX,staticflickr.com,💬 社交平台
+  - DOMAIN-SUFFIX,medium.com,💬 社交平台
+  - DOMAIN-SUFFIX,substack.com,💬 社交平台
+  - DOMAIN-SUFFIX,patreon.com,💬 社交平台
+  - DOMAIN-SUFFIX,ko-fi.com,💬 社交平台
+  - DOMAIN-SUFFIX,buymeacoffee.com,💬 社交平台
+  - DOMAIN-SUFFIX,linktr.ee,💬 社交平台
+  - DOMAIN-SUFFIX,beacons.ai,💬 社交平台
+  - DOMAIN-SUFFIX,clubhouse.com,💬 社交平台
+  - DOMAIN-SUFFIX,nextdoor.com,💬 社交平台
+  - DOMAIN-SUFFIX,meetup.com,💬 社交平台
+  - DOMAIN-SUFFIX,eventbrite.com,💬 社交平台
+  - DOMAIN-SUFFIX,quora.com,💬 社交平台
+  - DOMAIN-SUFFIX,stackoverflow.com,💬 社交平台
+  - DOMAIN-SUFFIX,stackexchange.com,💬 社交平台
+  - DOMAIN-SUFFIX,ycombinator.com,💬 社交平台
+  - DOMAIN-SUFFIX,producthunt.com,💬 社交平台
+  - DOMAIN-SUFFIX,dribbble.com,💬 社交平台
+  - DOMAIN-SUFFIX,behance.net,💬 社交平台
+  - DOMAIN-SUFFIX,deviantart.com,💬 社交平台
+  - DOMAIN-SUFFIX,artstation.com,💬 社交平台
+  - DOMAIN-SUFFIX,500px.com,💬 社交平台
+  - DOMAIN-SUFFIX,unsplash.com,💬 社交平台
+  - DOMAIN-SUFFIX,pexels.com,💬 社交平台
+  - DOMAIN-SUFFIX,pixabay.com,💬 社交平台
+  - DOMAIN-SUFFIX,imgur.com,💬 社交平台
+  - DOMAIN-SUFFIX,giphy.com,💬 社交平台
+  - DOMAIN-SUFFIX,tenor.com,💬 社交平台
+  - DOMAIN-SUFFIX,vk.com,💬 社交平台
+  - DOMAIN-SUFFIX,vk.me,💬 社交平台
+  - DOMAIN-SUFFIX,ok.ru,💬 社交平台
+  - DOMAIN-SUFFIX,line.me,💬 社交平台
+  - DOMAIN-SUFFIX,line-apps.com,💬 社交平台
+  - DOMAIN-SUFFIX,line-scdn.net,💬 社交平台
+  - DOMAIN-SUFFIX,kakao.com,💬 社交平台
+  - DOMAIN-SUFFIX,kakaocdn.net,💬 社交平台
+  - DOMAIN-SUFFIX,viber.com,💬 社交平台
+  - DOMAIN-SUFFIX,wechat.com,💬 社交平台
+  - DOMAIN-SUFFIX,skype.com,💬 社交平台
+  - DOMAIN-SUFFIX,zoom.us,💬 社交平台
+  - DOMAIN-SUFFIX,zoom.com,💬 社交平台
+  - DOMAIN-SUFFIX,teams.microsoft.com,💬 社交平台
+  - DOMAIN-SUFFIX,meet.google.com,💬 社交平台
+  - DOMAIN-SUFFIX,webex.com,💬 社交平台
+  - DOMAIN-SUFFIX,gotomeeting.com,💬 社交平台
+  - DOMAIN-SUFFIX,jitsi.org,💬 社交平台
+  - DOMAIN-SUFFIX,meet.jit.si,💬 社交平台
+  - DOMAIN-SUFFIX,8x8.com,💬 社交平台
+  - DOMAIN-SUFFIX,ringcentral.com,💬 社交平台
+  - DOMAIN-SUFFIX,whereby.com,💬 社交平台
+  - DOMAIN-SUFFIX,around.co,💬 社交平台
+  - DOMAIN-SUFFIX,loom.com,💬 社交平台
+  - DOMAIN-SUFFIX,vimeo.com,💬 社交平台
+  - DOMAIN-SUFFIX,twitch.tv,💬 社交平台
+  - DOMAIN-SUFFIX,kick.com,💬 社交平台
+  - DOMAIN-SUFFIX,rumble.com,💬 社交平台
+  - DOMAIN-SUFFIX,odysee.com,💬 社交平台
+  - DOMAIN-SUFFIX,bitchute.com,💬 社交平台
+  - DOMAIN-SUFFIX,gab.com,💬 社交平台
+  - DOMAIN-SUFFIX,parler.com,💬 社交平台
+  - DOMAIN-SUFFIX,truthsocial.com,💬 社交平台
+  - DOMAIN-SUFFIX,gettr.com,💬 社交平台
+  - DOMAIN-SUFFIX,mewe.com,💬 社交平台
+  - DOMAIN-SUFFIX,minds.com,💬 社交平台
+  - DOMAIN-SUFFIX,diasporafoundation.org,💬 社交平台
+  - DOMAIN-SUFFIX,ello.co,💬 社交平台
+  - DOMAIN-SUFFIX,vero.co,💬 社交平台
+  - DOMAIN-SUFFIX,caffeine.tv,💬 社交平台
+  - DOMAIN-SUFFIX,triller.co,💬 社交平台
+  - DOMAIN-SUFFIX,likee.video,💬 社交平台
+  - DOMAIN-SUFFIX,kwai.com,💬 社交平台
+  - DOMAIN-SUFFIX,hivesocial.app,💬 社交平台
+  - DOMAIN-SUFFIX,post.news,💬 社交平台
+  - DOMAIN-SUFFIX,spill.it,💬 社交平台
+  - DOMAIN-SUFFIX,t2.social,💬 社交平台
+  - DOMAIN-SUFFIX,cohost.org,💬 社交平台
+  - DOMAIN-SUFFIX,pillowfort.social,💬 社交平台
+  - DOMAIN-SUFFIX,dreamwidth.org,💬 社交平台
+  - DOMAIN-SUFFIX,livejournal.com,💬 社交平台
+  - DOMAIN-SUFFIX,github.com,💻 开发工具
+  - DOMAIN-SUFFIX,github.io,💻 开发工具
+  - DOMAIN-SUFFIX,githubusercontent.com,💻 开发工具
+  - DOMAIN-SUFFIX,githubstatus.com,💻 开发工具
+  - DOMAIN-SUFFIX,githubassets.com,💻 开发工具
+  - DOMAIN-SUFFIX,github.dev,💻 开发工具
+  - DOMAIN-SUFFIX,gitlab.com,💻 开发工具
+  - DOMAIN-SUFFIX,gitlab.io,💻 开发工具
+  - DOMAIN-SUFFIX,bitbucket.org,💻 开发工具
+  - DOMAIN-SUFFIX,bitbucket.io,💻 开发工具
+  - DOMAIN-SUFFIX,gitee.com,💻 开发工具
+  - DOMAIN-SUFFIX,gitee.io,💻 开发工具
+  - DOMAIN-SUFFIX,sourceforge.net,💻 开发工具
+  - DOMAIN-SUFFIX,stackoverflow.com,💻 开发工具
+  - DOMAIN-SUFFIX,stackexchange.com,💻 开发工具
+  - DOMAIN-SUFFIX,serverfault.com,💻 开发工具
+  - DOMAIN-SUFFIX,superuser.com,💻 开发工具
+  - DOMAIN-SUFFIX,askubuntu.com,💻 开发工具
+  - DOMAIN-SUFFIX,npmjs.com,💻 开发工具
+  - DOMAIN-SUFFIX,npmjs.org,💻 开发工具
+  - DOMAIN-SUFFIX,pypi.org,💻 开发工具
+  - DOMAIN-SUFFIX,pythonhosted.org,💻 开发工具
+  - DOMAIN-SUFFIX,maven.org,💻 开发工具
+  - DOMAIN-SUFFIX,sonatype.org,💻 开发工具
+  - DOMAIN-SUFFIX,nuget.org,💻 开发工具
+  - DOMAIN-SUFFIX,rubygems.org,💻 开发工具
+  - DOMAIN-SUFFIX,crates.io,💻 开发工具
+  - DOMAIN-SUFFIX,packagist.org,💻 开发工具
+  - DOMAIN-SUFFIX,pkg.go.dev,💻 开发工具
+  - DOMAIN-SUFFIX,docker.com,💻 开发工具
+  - DOMAIN-SUFFIX,docker.io,💻 开发工具
+  - DOMAIN-SUFFIX,dockerhub.com,💻 开发工具
+  - DOMAIN-SUFFIX,quay.io,💻 开发工具
+  - DOMAIN-SUFFIX,aws.amazon.com,💻 开发工具
+  - DOMAIN-SUFFIX,amazonaws.com,💻 开发工具
+  - DOMAIN-SUFFIX,cloudfront.net,💻 开发工具
+  - DOMAIN-SUFFIX,cloud.google.com,💻 开发工具
+  - DOMAIN-SUFFIX,googleapis.com,💻 开发工具
+  - DOMAIN-SUFFIX,gcp.gvt2.com,💻 开发工具
+  - DOMAIN-SUFFIX,azure.com,💻 开发工具
+  - DOMAIN-SUFFIX,azure.net,💻 开发工具
+  - DOMAIN-SUFFIX,azurewebsites.net,💻 开发工具
+  - DOMAIN-SUFFIX,windows.net,💻 开发工具
+  - DOMAIN-SUFFIX,digitalocean.com,💻 开发工具
+  - DOMAIN-SUFFIX,digitaloceanspaces.com,💻 开发工具
+  - DOMAIN-SUFFIX,linode.com,💻 开发工具
+  - DOMAIN-SUFFIX,vultr.com,💻 开发工具
+  - DOMAIN-SUFFIX,heroku.com,💻 开发工具
+  - DOMAIN-SUFFIX,herokuapp.com,💻 开发工具
+  - DOMAIN-SUFFIX,netlify.com,💻 开发工具
+  - DOMAIN-SUFFIX,netlify.app,💻 开发工具
+  - DOMAIN-SUFFIX,vercel.com,💻 开发工具
+  - DOMAIN-SUFFIX,vercel.app,💻 开发工具
+  - DOMAIN-SUFFIX,cloudflare.com,💻 开发工具
+  - DOMAIN-SUFFIX,cloudflare.net,💻 开发工具
+  - DOMAIN-SUFFIX,workers.dev,💻 开发工具
+  - DOMAIN-SUFFIX,pages.dev,💻 开发工具
+  - DOMAIN-SUFFIX,railway.app,💻 开发工具
+  - DOMAIN-SUFFIX,render.com,💻 开发工具
+  - DOMAIN-SUFFIX,fly.io,💻 开发工具
+  - DOMAIN-SUFFIX,fly.dev,💻 开发工具
+  - DOMAIN-SUFFIX,supabase.com,💻 开发工具
+  - DOMAIN-SUFFIX,supabase.co,💻 开发工具
+  - DOMAIN-SUFFIX,firebase.com,💻 开发工具
+  - DOMAIN-SUFFIX,firebaseapp.com,💻 开发工具
+  - DOMAIN-SUFFIX,firebaseio.com,💻 开发工具
+  - DOMAIN-SUFFIX,mongodb.com,💻 开发工具
+  - DOMAIN-SUFFIX,mongodb.net,💻 开发工具
+  - DOMAIN-SUFFIX,postgresql.org,💻 开发工具
+  - DOMAIN-SUFFIX,mysql.com,💻 开发工具
+  - DOMAIN-SUFFIX,redis.io,💻 开发工具
+  - DOMAIN-SUFFIX,redis.com,💻 开发工具
+  - DOMAIN-SUFFIX,elastic.co,💻 开发工具
+  - DOMAIN-SUFFIX,datadog.com,💻 开发工具
+  - DOMAIN-SUFFIX,datadoghq.com,💻 开发工具
+  - DOMAIN-SUFFIX,newrelic.com,💻 开发工具
+  - DOMAIN-SUFFIX,sentry.io,💻 开发工具
+  - DOMAIN-SUFFIX,logrocket.com,💻 开发工具
+  - DOMAIN-SUFFIX,splunk.com,💻 开发工具
+  - DOMAIN-SUFFIX,grafana.com,💻 开发工具
+  - DOMAIN-SUFFIX,grafana.net,💻 开发工具
+  - DOMAIN-SUFFIX,prometheus.io,💻 开发工具
+  - DOMAIN-SUFFIX,jenkins.io,💻 开发工具
+  - DOMAIN-SUFFIX,circleci.com,💻 开发工具
+  - DOMAIN-SUFFIX,travis-ci.org,💻 开发工具
+  - DOMAIN-SUFFIX,travis-ci.com,💻 开发工具
+  - DOMAIN-SUFFIX,github.com,💻 开发工具
+  - DOMAIN-SUFFIX,gitlab.com,💻 开发工具
+  - DOMAIN-SUFFIX,bitbucket.org,💻 开发工具
+  - DOMAIN-SUFFIX,dev.azure.com,💻 开发工具
+  - DOMAIN-SUFFIX,visualstudio.com,💻 开发工具
+  - DOMAIN-SUFFIX,jetbrains.com,💻 开发工具
+  - DOMAIN-SUFFIX,atlassian.com,💻 开发工具
+  - DOMAIN-SUFFIX,atlassian.com,💻 开发工具
+  - DOMAIN-SUFFIX,jira.com,💻 开发工具
+  - DOMAIN-SUFFIX,atlassian.com,💻 开发工具
+  - DOMAIN-SUFFIX,confluence.com,💻 开发工具
+  - DOMAIN-SUFFIX,trello.com,💻 开发工具
+  - DOMAIN-SUFFIX,asana.com,💻 开发工具
+  - DOMAIN-SUFFIX,monday.com,💻 开发工具
+  - DOMAIN-SUFFIX,linear.app,💻 开发工具
+  - DOMAIN-SUFFIX,notion.so,💻 开发工具
+  - DOMAIN-SUFFIX,notion.site,💻 开发工具
+  - DOMAIN-SUFFIX,coda.io,💻 开发工具
+  - DOMAIN-SUFFIX,airtable.com,💻 开发工具
+  - DOMAIN-SUFFIX,basecamp.com,💻 开发工具
+  - DOMAIN-SUFFIX,clickup.com,💻 开发工具
+  - DOMAIN-SUFFIX,shortcut.com,💻 开发工具
+  - DOMAIN-SUFFIX,height.app,💻 开发工具
+  - DOMAIN-SUFFIX,plane.so,💻 开发工具
+  - DOMAIN-SUFFIX,code.visualstudio.com,💻 开发工具
+  - DOMAIN-SUFFIX,vscode.dev,💻 开发工具
+  - DOMAIN-SUFFIX,jetbrains.com,💻 开发工具
+  - DOMAIN-SUFFIX,intellij.net,💻 开发工具
+  - DOMAIN-SUFFIX,sublimetext.com,💻 开发工具
+  - DOMAIN-SUFFIX,atom.io,💻 开发工具
+  - DOMAIN-SUFFIX,vim.org,💻 开发工具
+  - DOMAIN-SUFFIX,gnu.org,💻 开发工具
+  - DOMAIN-SUFFIX,postman.com,💻 开发工具
+  - DOMAIN-SUFFIX,getpostman.com,💻 开发工具
+  - DOMAIN-SUFFIX,insomnia.rest,💻 开发工具
+  - DOMAIN-SUFFIX,hoppscotch.io,💻 开发工具
+  - DOMAIN-SUFFIX,swagger.io,💻 开发工具
+  - DOMAIN-SUFFIX,stoplight.io,💻 开发工具
+  - DOMAIN-SUFFIX,figma.com,💻 开发工具
+  - DOMAIN-SUFFIX,sketch.com,💻 开发工具
+  - DOMAIN-SUFFIX,adobe.com,💻 开发工具
+  - DOMAIN-SUFFIX,invisionapp.com,💻 开发工具
+  - DOMAIN-SUFFIX,zeplin.io,💻 开发工具
+  - DOMAIN-SUFFIX,abstract.com,💻 开发工具
+  - DOMAIN-SUFFIX,miro.com,💻 开发工具
+  - DOMAIN-SUFFIX,figma.com,💻 开发工具
+  - DOMAIN-SUFFIX,excalidraw.com,💻 开发工具
+  - DOMAIN-SUFFIX,draw.io,💻 开发工具
+  - DOMAIN-SUFFIX,diagrams.net,💻 开发工具
+  - DOMAIN-SUFFIX,lucidchart.com,💻 开发工具
+  - DOMAIN-SUFFIX,whimsical.com,💻 开发工具
+  - DOMAIN-SUFFIX,mermaid.js.org,💻 开发工具
+  - DOMAIN-SUFFIX,plantuml.com,💻 开发工具
+  - DOMAIN-SUFFIX,codepen.io,💻 开发工具
+  - DOMAIN-SUFFIX,jsfiddle.net,💻 开发工具
+  - DOMAIN-SUFFIX,codesandbox.io,💻 开发工具
+  - DOMAIN-SUFFIX,stackblitz.com,💻 开发工具
+  - DOMAIN-SUFFIX,replit.com,💻 开发工具
+  - DOMAIN-SUFFIX,repl.it,💻 开发工具
+  - DOMAIN-SUFFIX,glitch.com,💻 开发工具
+  - DOMAIN-SUFFIX,glitch.me,💻 开发工具
+  - DOMAIN-SUFFIX,observablehq.com,💻 开发工具
+  - DOMAIN-SUFFIX,jupyter.org,💻 开发工具
+  - DOMAIN-SUFFIX,colab.research.google.com,💻 开发工具
+  - DOMAIN-SUFFIX,kaggle.com,💻 开发工具
+  - DOMAIN-SUFFIX,databricks.com,💻 开发工具
+  - DOMAIN-SUFFIX,anaconda.com,💻 开发工具
+  - DOMAIN-SUFFIX,anaconda.org,💻 开发工具
+  - DOMAIN-SUFFIX,conda.io,💻 开发工具
+  - DOMAIN-SUFFIX,readthedocs.io,💻 开发工具
+  - DOMAIN-SUFFIX,readthedocs.org,💻 开发工具
+  - DOMAIN-SUFFIX,gitbook.com,💻 开发工具
+  - DOMAIN-SUFFIX,gitbook.io,💻 开发工具
+  - DOMAIN-SUFFIX,docusaurus.io,💻 开发工具
+  - DOMAIN-SUFFIX,mkdocs.org,💻 开发工具
+  - DOMAIN-SUFFIX,sphinx-doc.org,💻 开发工具
+  - DOMAIN-SUFFIX,devdocs.io,💻 开发工具
+  - DOMAIN-SUFFIX,developer.mozilla.org,💻 开发工具
+  - DOMAIN-SUFFIX,w3schools.com,💻 开发工具
+  - DOMAIN-SUFFIX,freecodecamp.org,💻 开发工具
+  - DOMAIN-SUFFIX,leetcode.com,💻 开发工具
+  - DOMAIN-SUFFIX,hackerrank.com,💻 开发工具
+  - DOMAIN-SUFFIX,codewars.com,💻 开发工具
+  - DOMAIN-SUFFIX,exercism.org,💻 开发工具
+  - DOMAIN-SUFFIX,projecteuler.net,💻 开发工具
+  - DOMAIN-SUFFIX,adventofcode.com,💻 开发工具
+  - DOMAIN-SUFFIX,codeforces.com,💻 开发工具
+  - DOMAIN-SUFFIX,topcoder.com,💻 开发工具
+  - DOMAIN-SUFFIX,atcoder.jp,💻 开发工具
+  - DOMAIN-SUFFIX,codechef.com,💻 开发工具
+  - DOMAIN-SUFFIX,spoj.com,💻 开发工具
+  - DOMAIN-SUFFIX,onlinejudge.org,💻 开发工具
+  - DOMAIN-SUFFIX,open.kattis.com,💻 开发工具
+  - DOMAIN-SUFFIX,hackerearth.com,💻 开发工具
+  - DOMAIN-SUFFIX,spoj.com,💻 开发工具
+  - DOMAIN-SUFFIX,regex101.com,💻 开发工具
+  - DOMAIN-SUFFIX,regexr.com,💻 开发工具
+  - DOMAIN-SUFFIX,caniuse.com,💻 开发工具
+  - DOMAIN-SUFFIX,browserstack.com,💻 开发工具
+  - DOMAIN-SUFFIX,saucelabs.com,💻 开发工具
+  - DOMAIN-SUFFIX,lambdatest.com,💻 开发工具
+  - DOMAIN-SUFFIX,percy.io,💻 开发工具
+  - DOMAIN-SUFFIX,chromatic.com,💻 开发工具
+  - DOMAIN-SUFFIX,storybook.js.org,💻 开发工具
+  - DOMAIN-SUFFIX,bit.dev,💻 开发工具
+  - DOMAIN-SUFFIX,npmtrends.com,💻 开发工具
+  - DOMAIN-SUFFIX,bundlephobia.com,💻 开发工具
+  - DOMAIN-SUFFIX,packagephobia.com,💻 开发工具
+  - DOMAIN-SUFFIX,snyk.io,💻 开发工具
+  - DOMAIN-SUFFIX,dependabot.com,💻 开发工具
+  - DOMAIN-SUFFIX,renovatebot.com,💻 开发工具
+  - DOMAIN-SUFFIX,greenkeeper.io,💻 开发工具
+  - DOMAIN-SUFFIX,sonarqube.org,💻 开发工具
+  - DOMAIN-SUFFIX,sonarcloud.io,💻 开发工具
+  - DOMAIN-SUFFIX,codeclimate.com,💻 开发工具
+  - DOMAIN-SUFFIX,codecov.io,💻 开发工具
+  - DOMAIN-SUFFIX,coveralls.io,💻 开发工具
+  - DOMAIN-SUFFIX,bettercodehub.com,💻 开发工具
+  - DOMAIN-SUFFIX,deepsource.io,💻 开发工具
+  - DOMAIN-SUFFIX,codacy.com,💻 开发工具
+  - DOMAIN-SUFFIX,eslint.org,💻 开发工具
+  - DOMAIN-SUFFIX,prettier.io,💻 开发工具
+  - DOMAIN-SUFFIX,stylelint.io,💻 开发工具
+  - DOMAIN-SUFFIX,black.readthedocs.io,💻 开发工具
+  - DOMAIN-SUFFIX,flake8.pycqa.org,💻 开发工具
+  - DOMAIN-SUFFIX,pylint.org,💻 开发工具
+  - DOMAIN-SUFFIX,rubocop.org,💻 开发工具
+  - DOMAIN-SUFFIX,standardjs.com,💻 开发工具
+  - DOMAIN-SUFFIX,jshint.com,💻 开发工具
+  - DOMAIN-SUFFIX,palantir.github.io,💻 开发工具
+  - DOMAIN-SUFFIX,checkstyle.org,💻 开发工具
+  - DOMAIN-SUFFIX,pmd.github.io,💻 开发工具
+  - DOMAIN-SUFFIX,spotbugs.github.io,💻 开发工具
+  - DOMAIN-SUFFIX,findbugs.sourceforge.net,💻 开发工具
+  - DOMAIN-SUFFIX,rust-lang.github.io,💻 开发工具
+  - DOMAIN-SUFFIX,golang.org,💻 开发工具
+  - DOMAIN-SUFFIX,github.com,💻 开发工具
+  - DOMAIN-SUFFIX,developer.android.com,💻 开发工具
+  - DOMAIN-SUFFIX,developer.apple.com,💻 开发工具
+  - DOMAIN-SUFFIX,developer.android.com,💻 开发工具
+  - DOMAIN-SUFFIX,flutter.dev,💻 开发工具
+  - DOMAIN-SUFFIX,reactnative.dev,💻 开发工具
+  - DOMAIN-SUFFIX,expo.dev,💻 开发工具
+  - DOMAIN-SUFFIX,expo.io,💻 开发工具
+  - DOMAIN-SUFFIX,ionicframework.com,💻 开发工具
+  - DOMAIN-SUFFIX,capacitorjs.com,💻 开发工具
+  - DOMAIN-SUFFIX,cordova.apache.org,💻 开发工具
+  - DOMAIN-SUFFIX,electronjs.org,💻 开发工具
+  - DOMAIN-SUFFIX,tauri.app,💻 开发工具
+  - DOMAIN-SUFFIX,nwjs.io,💻 开发工具
+  - DOMAIN-SUFFIX,unity.com,💻 开发工具
+  - DOMAIN-SUFFIX,unity3d.com,💻 开发工具
+  - DOMAIN-SUFFIX,unrealengine.com,💻 开发工具
+  - DOMAIN-SUFFIX,godotengine.org,💻 开发工具
+  - DOMAIN-SUFFIX,blender.org,💻 开发工具
+  - DOMAIN-SUFFIX,threejs.org,💻 开发工具
+  - DOMAIN-SUFFIX,babylonjs.com,💻 开发工具
+  - DOMAIN-SUFFIX,playcanvas.com,💻 开发工具
+  - DOMAIN-SUFFIX,phaser.io,💻 开发工具
+  - DOMAIN-SUFFIX,pixijs.com,💻 开发工具
+  - DOMAIN-SUFFIX,brm.io,💻 开发工具
+  - DOMAIN-SUFFIX,p5js.org,💻 开发工具
+  - DOMAIN-SUFFIX,processing.org,💻 开发工具
+  - DOMAIN-SUFFIX,openframeworks.cc,💻 开发工具
+  - DOMAIN-SUFFIX,libcinder.org,💻 开发工具
+  - DOMAIN-SUFFIX,love2d.org,💻 开发工具
+  - DOMAIN-SUFFIX,raylib.com,💻 开发工具
+  - DOMAIN-SUFFIX,libsdl.org,💻 开发工具
+  - DOMAIN-SUFFIX,sfml-dev.org,💻 开发工具
+  - DOMAIN-SUFFIX,liballeg.org,💻 开发工具
+  - DOMAIN-SUFFIX,cocos2d-x.org,💻 开发工具
+  - DOMAIN-SUFFIX,coronalabs.com,💻 开发工具
+  - DOMAIN-SUFFIX,defold.com,💻 开发工具
+  - DOMAIN-SUFFIX,yoyogames.com,💻 开发工具
+  - DOMAIN-SUFFIX,construct.net,💻 开发工具
+  - DOMAIN-SUFFIX,gdevelop.io,💻 开发工具
+  - DOMAIN-SUFFIX,rpgmakerweb.com,💻 开发工具
+  - DOMAIN-SUFFIX,renpy.org,💻 开发工具
+  - DOMAIN-SUFFIX,twinery.org,💻 开发工具
+  - DOMAIN-SUFFIX,inklestudios.com,💻 开发工具
+  - DOMAIN-SUFFIX,yarnspinner.dev,💻 开发工具
+  - DOMAIN-SUFFIX,dialogic.pro,💻 开发工具
+  - DOMAIN-SUFFIX,articy.com,💻 开发工具
+  - DOMAIN-SUFFIX,chatmapper.com,💻 开发工具
+  - DOMAIN,browser-intake-datadoghq.com,🤖 AI 服务
+  - DOMAIN,chat.openai.com.cdn.cloudflare.net,🤖 AI 服务
+  - DOMAIN,openai-api.arkoselabs.com,🤖 AI 服务
+  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,🤖 AI 服务
+  - DOMAIN,openaicomproductionae4b.blob.core.windows.net,🤖 AI 服务
+  - DOMAIN,production-openaicom-storage.azureedge.net,🤖 AI 服务
+  - DOMAIN,static.cloudflareinsights.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,ai.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,algolia.net,🤖 AI 服务
+  - DOMAIN-SUFFIX,api.statsig.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,auth0.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,chatgpt.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,chatgpt.livekit.cloud,🤖 AI 服务
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,events.statsigapi.net,🤖 AI 服务
+  - DOMAIN-SUFFIX,featuregates.org,🤖 AI 服务
+  - DOMAIN-SUFFIX,host.livekit.cloud,🤖 AI 服务
+  - DOMAIN-SUFFIX,identrust.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,intercom.io,🤖 AI 服务
+  - DOMAIN-SUFFIX,intercomcdn.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,launchdarkly.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,oaistatic.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,oaiusercontent.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,observeit.net,🤖 AI 服务
+  - DOMAIN-SUFFIX,openai.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,🤖 AI 服务
+  - DOMAIN-SUFFIX,openaicom.imgix.net,🤖 AI 服务
+  - DOMAIN-SUFFIX,segment.io,🤖 AI 服务
+  - DOMAIN-SUFFIX,sentry.io,🤖 AI 服务
+  - DOMAIN-SUFFIX,stripe.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,turn.livekit.cloud,🤖 AI 服务
+  - DOMAIN-KEYWORD,openai,🤖 AI 服务
+  - IP-CIDR,24.199.123.28/32,🤖 AI 服务,no-resolve
+  - IP-CIDR,64.23.132.171/32,🤖 AI 服务,no-resolve
+  - IP-ASN,20473,🤖 AI 服务,no-resolve
+  - DOMAIN,cdn.usefathom.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,anthropic.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,claude.ai,🤖 AI 服务
+  - DOMAIN,servd-anthropic-website.b-cdn.net,🤖 AI 服务
+  - DOMAIN-SUFFIX,anthropic.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,claude.ai,🤖 AI 服务
+  - DOMAIN,ai.google.dev,🤖 AI 服务
+  - DOMAIN,alkalimakersuite-pa.clients6.google.com,🤖 AI 服务
+  - DOMAIN,makersuite.google.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,bard.google.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,deepmind.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,deepmind.google,🤖 AI 服务
+  - DOMAIN-SUFFIX,gemini.google.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,generativeai.google,🤖 AI 服务
+  - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,apis.google.com,🤖 AI 服务
+  - DOMAIN-KEYWORD,colab,🤖 AI 服务
+  - DOMAIN-KEYWORD,developerprofiles,🤖 AI 服务
+  - DOMAIN-KEYWORD,generativelanguage,🤖 AI 服务
+  - DOMAIN,ai.google.dev,🤖 AI 服务
+  - DOMAIN,alkalimakersuite-pa.clients6.google.com,🤖 AI 服务
+  - DOMAIN,generativelanguage.googleapis.com,🤖 AI 服务
+  - DOMAIN,makersuite.google.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,bard.google.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,deepmind.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,deepmind.google,🤖 AI 服务
+  - DOMAIN-SUFFIX,gemini.google.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,generativeai.google,🤖 AI 服务
+  - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com,🤖 AI 服务
+  - DOMAIN,api.msn.com,🤖 AI 服务
+  - DOMAIN,api.statsig.com,🤖 AI 服务
+  - DOMAIN,assets.msn.com,🤖 AI 服务
+  - DOMAIN,browser-intake-datadoghq.com,🤖 AI 服务
+  - DOMAIN,chat.openai.com.cdn.cloudflare.net,🤖 AI 服务
+  - DOMAIN,copilot.microsoft.com,🤖 AI 服务
+  - DOMAIN,gateway.bingviz.microsoft.net,🤖 AI 服务
+  - DOMAIN,gateway.bingviz.microsoftapp.net,🤖 AI 服务
+  - DOMAIN,in.appcenter.ms,🤖 AI 服务
+  - DOMAIN,location.microsoft.com,🤖 AI 服务
+  - DOMAIN,odc.officeapps.live.com,🤖 AI 服务
+  - DOMAIN,openai-api.arkoselabs.com,🤖 AI 服务
+  - DOMAIN,openaicomproductionae4b.blob.core.windows.net,🤖 AI 服务
+  - DOMAIN,production-openaicom-storage.azureedge.net,🤖 AI 服务
+  - DOMAIN,r.bing.com,🤖 AI 服务
+  - DOMAIN,self.events.data.microsoft.com,🤖 AI 服务
+  - DOMAIN,services.bingapis.com,🤖 AI 服务
+  - DOMAIN,static.cloudflareinsights.com,🤖 AI 服务
+  - DOMAIN,sydney.bing.com,🤖 AI 服务
+  - DOMAIN,www.bing.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,algolia.net,🤖 AI 服务
+  - DOMAIN-SUFFIX,api.microsoftapp.net,🤖 AI 服务
+  - DOMAIN-SUFFIX,auth0.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,bing-shopping.microsoft-falcon.io,🤖 AI 服务
+  - DOMAIN-SUFFIX,challenges.cloudflare.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,chatgpt.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,chatgpt.livekit.cloud,🤖 AI 服务
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,edgeservices.bing.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,events.statsigapi.net,🤖 AI 服务
+  - DOMAIN-SUFFIX,featuregates.org,🤖 AI 服务
+  - DOMAIN-SUFFIX,host.livekit.cloud,🤖 AI 服务
+  - DOMAIN-SUFFIX,identrust.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,intercom.io,🤖 AI 服务
+  - DOMAIN-SUFFIX,intercomcdn.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,launchdarkly.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,oaistatic.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,oaiusercontent.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,observeit.net,🤖 AI 服务
+  - DOMAIN-SUFFIX,openai.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,🤖 AI 服务
+  - DOMAIN-SUFFIX,openaicom.imgix.net,🤖 AI 服务
+  - DOMAIN-SUFFIX,segment.io,🤖 AI 服务
+  - DOMAIN-SUFFIX,sentry.io,🤖 AI 服务
+  - DOMAIN-SUFFIX,stripe.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,turn.livekit.cloud,🤖 AI 服务
+  - DOMAIN-KEYWORD,openaicom-api,🤖 AI 服务
+  - IP-CIDR,24.199.123.28/32,🤖 AI 服务,no-resolve
+  - IP-CIDR,64.23.132.171/32,🤖 AI 服务,no-resolve
+  - IP-ASN,14061,🤖 AI 服务,no-resolve
+  - IP-ASN,20473,🤖 AI 服务,no-resolve
+  - DOMAIN-SUFFIX,civitai.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,perplexity.ai,🤖 AI 服务
+  - DOMAIN-SUFFIX,pplx.ai,🤖 AI 服务
+  - DOMAIN-SUFFIX,midjourney.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,cdn.midjourney.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,stability.ai,🤖 AI 服务
+  - DOMAIN-SUFFIX,stabilityai.us,🤖 AI 服务
+  - DOMAIN-SUFFIX,dreamstudio.ai,🤖 AI 服务
+  - DOMAIN-SUFFIX,dreamstudio.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,huggingface.co,🤖 AI 服务
+  - DOMAIN-SUFFIX,hf.co,🤖 AI 服务
+  - DOMAIN-SUFFIX,huggingface.space,🤖 AI 服务
+  - DOMAIN-SUFFIX,cohere.ai,🤖 AI 服务
+  - DOMAIN-SUFFIX,cohere.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,character.ai,🤖 AI 服务
+  - DOMAIN-SUFFIX,characterai.io,🤖 AI 服务
+  - DOMAIN-SUFFIX,poe.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,jasper.ai,🤖 AI 服务
+  - DOMAIN-SUFFIX,runwayml.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,runway.ml,🤖 AI 服务
+  - DOMAIN-SUFFIX,replicate.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,replicate.delivery,🤖 AI 服务
+  - DOMAIN-SUFFIX,leonardo.ai,🤖 AI 服务
+  - DOMAIN-SUFFIX,notion.ai,🤖 AI 服务
+  - DOMAIN-SUFFIX,notion.so,🤖 AI 服务
+  - DOMAIN-SUFFIX,you.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,phind.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,cursor.sh,🤖 AI 服务
+  - DOMAIN-SUFFIX,cursor.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,codeium.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,tabnine.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,replit.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,repl.it,🤖 AI 服务
+  - DOMAIN-SUFFIX,writesonic.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,copy.ai,🤖 AI 服务
+  - DOMAIN-SUFFIX,grammarly.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,grammarly.io,🤖 AI 服务
+  - DOMAIN-SUFFIX,quillbot.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,synthesia.io,🤖 AI 服务
+  - DOMAIN-SUFFIX,d-id.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,elevenlabs.io,🤖 AI 服务
+  - DOMAIN-SUFFIX,elevenlabs.ai,🤖 AI 服务
+  - DOMAIN-SUFFIX,play.ht,🤖 AI 服务
+  - DOMAIN-SUFFIX,murf.ai,🤖 AI 服务
+  - DOMAIN-SUFFIX,descript.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,otter.ai,🤖 AI 服务
+  - DOMAIN-SUFFIX,fireflies.ai,🤖 AI 服务
+  - DOMAIN-SUFFIX,tome.app,🤖 AI 服务
+  - DOMAIN-SUFFIX,gamma.app,🤖 AI 服务
+  - DOMAIN-SUFFIX,beautiful.ai,🤖 AI 服务
+  - DOMAIN-SUFFIX,canva.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,canva.cn,🤖 AI 服务
+  - DOMAIN-SUFFIX,figma.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,framer.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,framer.ai,🤖 AI 服务
+  - DOMAIN-SUFFIX,v0.dev,🤖 AI 服务
+  - DOMAIN-SUFFIX,sdk.vercel.ai,🤖 AI 服务
+  - DOMAIN-SUFFIX,anthropic.ai,🤖 AI 服务
+  - DOMAIN-SUFFIX,claude.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,openai.org,🤖 AI 服务
+  - DOMAIN-SUFFIX,chatgpt.org,🤖 AI 服务
+  - DOMAIN-SUFFIX,aistudio.google.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,makersuite.google.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,meta.ai,🤖 AI 服务
+  - DOMAIN-SUFFIX,mistral.ai,🤖 AI 服务
+  - DOMAIN-SUFFIX,chat.mistral.ai,🤖 AI 服务
+  - DOMAIN-SUFFIX,inflection.ai,🤖 AI 服务
+  - DOMAIN-SUFFIX,pi.ai,🤖 AI 服务
+  - DOMAIN-SUFFIX,adept.ai,🤖 AI 服务
+  - DOMAIN-SUFFIX,ai21.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,forefront.ai,🤖 AI 服务
+  - DOMAIN-SUFFIX,pika.art,🤖 AI 服务
+  - DOMAIN-SUFFIX,suno.ai,🤖 AI 服务
+  - DOMAIN-SUFFIX,suno.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,udio.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,krea.ai,🤖 AI 服务
+  - DOMAIN-SUFFIX,ideogram.ai,🤖 AI 服务
+  - DOMAIN-SUFFIX,playgroundai.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,nightcafe.studio,🤖 AI 服务
+  - DOMAIN-SUFFIX,artbreeder.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,deepai.org,🤖 AI 服务
+  - DOMAIN-SUFFIX,craiyon.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,lexica.art,🤖 AI 服务
+  - DOMAIN-SUFFIX,promptbase.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,chatpdf.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,pdf.ai,🤖 AI 服务
+  - DOMAIN-SUFFIX,claudecode.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,x.ai,🤖 AI 服务
+  - DOMAIN-SUFFIX,xai.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,databricks.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,scale.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,scale.ai,🤖 AI 服务
+  - DOMAIN-SUFFIX,wandb.ai,🤖 AI 服务
+  - DOMAIN-SUFFIX,wandb.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,langchain.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,langsmith.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,llamaindex.ai,🤖 AI 服务
+  - DOMAIN-SUFFIX,pinecone.io,🤖 AI 服务
+  - DOMAIN-SUFFIX,weaviate.io,🤖 AI 服务
+  - DOMAIN-SUFFIX,trychroma.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,milvus.io,🤖 AI 服务
+  - DOMAIN-SUFFIX,qdrant.tech,🤖 AI 服务
+  - DOMAIN-SUFFIX,together.ai,🤖 AI 服务
+  - DOMAIN-SUFFIX,together.xyz,🤖 AI 服务
+  - DOMAIN-SUFFIX,anyscale.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,modal.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,baseten.co,🤖 AI 服务
+  - DOMAIN-SUFFIX,banana.dev,🤖 AI 服务
+  - DOMAIN-SUFFIX,steamship.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,langflow.org,🤖 AI 服务
+  - DOMAIN-SUFFIX,flowiseai.com,🤖 AI 服务
+  - DOMAIN-SUFFIX,dust.tt,🤖 AI 服务
+  - DOMAIN-SUFFIX,fixie.ai,🤖 AI 服务
+  - DOMAIN-SUFFIX,steamship.com,🤖 AI 服务
+  - GEOIP,CN,🎯 全球直连
+  - MATCH,🐟 漏网之鱼

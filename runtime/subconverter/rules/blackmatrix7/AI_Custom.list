@@ -1,0 +1,285 @@
+# NAME: AI_Custom
+# AUTHOR: Custom
+# UPDATED: 2025-11-30
+# DESCRIPTION: Comprehensive AI services rules including missing services from blackmatrix7
+
+# Perplexity AI
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,pplx.ai
+
+# Midjourney
+DOMAIN-SUFFIX,midjourney.com
+DOMAIN-SUFFIX,cdn.midjourney.com
+
+# Stability AI (Stable Diffusion)
+DOMAIN-SUFFIX,stability.ai
+DOMAIN-SUFFIX,stabilityai.us
+DOMAIN-SUFFIX,dreamstudio.ai
+DOMAIN-SUFFIX,dreamstudio.com
+
+# HuggingFace
+DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,hf.co
+DOMAIN-SUFFIX,huggingface.space
+
+# Cohere
+DOMAIN-SUFFIX,cohere.ai
+DOMAIN-SUFFIX,cohere.com
+
+# Character.AI
+DOMAIN-SUFFIX,character.ai
+DOMAIN-SUFFIX,characterai.io
+
+# Poe (Quora AI)
+DOMAIN-SUFFIX,poe.com
+
+# Jasper AI
+DOMAIN-SUFFIX,jasper.ai
+
+# Runway ML
+DOMAIN-SUFFIX,runwayml.com
+DOMAIN-SUFFIX,runway.ml
+
+# Replicate
+DOMAIN-SUFFIX,replicate.com
+DOMAIN-SUFFIX,replicate.delivery
+
+# Leonardo.AI
+DOMAIN-SUFFIX,leonardo.ai
+
+# Notion AI
+DOMAIN-SUFFIX,notion.ai
+DOMAIN-SUFFIX,notion.so
+
+# You.com (AI Search)
+DOMAIN-SUFFIX,you.com
+
+# Phind (AI Search for Developers)
+DOMAIN-SUFFIX,phind.com
+
+# Cursor (AI Code Editor)
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,cursor.com
+
+# Codeium (AI Coding Assistant)
+DOMAIN-SUFFIX,codeium.com
+
+# Tabnine (AI Code Completion)
+DOMAIN-SUFFIX,tabnine.com
+
+# Replit AI
+DOMAIN-SUFFIX,replit.com
+DOMAIN-SUFFIX,repl.it
+
+# Writesonic
+DOMAIN-SUFFIX,writesonic.com
+
+# Copy.ai
+DOMAIN-SUFFIX,copy.ai
+
+# Grammarly AI
+DOMAIN-SUFFIX,grammarly.com
+DOMAIN-SUFFIX,grammarly.io
+
+# Quillbot
+DOMAIN-SUFFIX,quillbot.com
+
+# Synthesia (AI Video)
+DOMAIN-SUFFIX,synthesia.io
+
+# D-ID (AI Video)
+DOMAIN-SUFFIX,d-id.com
+
+# ElevenLabs (AI Voice)
+DOMAIN-SUFFIX,elevenlabs.io
+DOMAIN-SUFFIX,elevenlabs.ai
+
+# Play.ht (AI Voice)
+DOMAIN-SUFFIX,play.ht
+
+# Murf.ai (AI Voice)
+DOMAIN-SUFFIX,murf.ai
+
+# Descript (AI Audio/Video)
+DOMAIN-SUFFIX,descript.com
+
+# Otter.ai (AI Transcription)
+DOMAIN-SUFFIX,otter.ai
+
+# Fireflies.ai (AI Meeting Notes)
+DOMAIN-SUFFIX,fireflies.ai
+
+# Tome (AI Presentations)
+DOMAIN-SUFFIX,tome.app
+
+# Gamma (AI Presentations)
+DOMAIN-SUFFIX,gamma.app
+
+# Beautiful.ai
+DOMAIN-SUFFIX,beautiful.ai
+
+# Canva AI
+DOMAIN-SUFFIX,canva.com
+DOMAIN-SUFFIX,canva.cn
+
+# Figma AI
+DOMAIN-SUFFIX,figma.com
+
+# Framer AI
+DOMAIN-SUFFIX,framer.com
+DOMAIN-SUFFIX,framer.ai
+
+# v0.dev (Vercel AI)
+DOMAIN-SUFFIX,v0.dev
+
+# Vercel AI SDK
+DOMAIN-SUFFIX,sdk.vercel.ai
+
+# Anthropic Claude (additional domains)
+DOMAIN-SUFFIX,anthropic.ai
+DOMAIN-SUFFIX,claude.com
+
+# OpenAI (additional domains)
+DOMAIN-SUFFIX,openai.org
+DOMAIN-SUFFIX,chatgpt.org
+
+# Google AI Studio
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,makersuite.google.com
+
+# Meta AI
+DOMAIN-SUFFIX,meta.ai
+
+# Mistral AI
+DOMAIN-SUFFIX,mistral.ai
+DOMAIN-SUFFIX,chat.mistral.ai
+
+# Inflection AI (Pi)
+DOMAIN-SUFFIX,inflection.ai
+DOMAIN-SUFFIX,pi.ai
+
+# Adept AI
+DOMAIN-SUFFIX,adept.ai
+
+# AI21 Labs
+DOMAIN-SUFFIX,ai21.com
+
+# Forefront AI
+DOMAIN-SUFFIX,forefront.ai
+
+# Pika Labs (AI Video)
+DOMAIN-SUFFIX,pika.art
+
+# Suno AI (AI Music)
+DOMAIN-SUFFIX,suno.ai
+DOMAIN-SUFFIX,suno.com
+
+# Udio (AI Music)
+DOMAIN-SUFFIX,udio.com
+
+# Krea AI
+DOMAIN-SUFFIX,krea.ai
+
+# Ideogram AI
+DOMAIN-SUFFIX,ideogram.ai
+
+# Playground AI
+DOMAIN-SUFFIX,playgroundai.com
+
+# NightCafe
+DOMAIN-SUFFIX,nightcafe.studio
+
+# Artbreeder
+DOMAIN-SUFFIX,artbreeder.com
+
+# DeepAI
+DOMAIN-SUFFIX,deepai.org
+
+# Craiyon (formerly DALL-E mini)
+DOMAIN-SUFFIX,craiyon.com
+
+# Lexica (AI Art Search)
+DOMAIN-SUFFIX,lexica.art
+
+# PromptBase
+DOMAIN-SUFFIX,promptbase.com
+
+# ChatPDF
+DOMAIN-SUFFIX,chatpdf.com
+
+# PDF.ai
+DOMAIN-SUFFIX,pdf.ai
+
+# Claude Code (Anthropic)
+DOMAIN-SUFFIX,claudecode.com
+
+# Grok (X.AI) - covered by Twitter rules but adding explicitly
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,xai.com
+
+# Databricks AI
+DOMAIN-SUFFIX,databricks.com
+
+# Scale AI
+DOMAIN-SUFFIX,scale.com
+DOMAIN-SUFFIX,scale.ai
+
+# Weights & Biases
+DOMAIN-SUFFIX,wandb.ai
+DOMAIN-SUFFIX,wandb.com
+
+# LangChain
+DOMAIN-SUFFIX,langchain.com
+DOMAIN-SUFFIX,langsmith.com
+
+# LlamaIndex
+DOMAIN-SUFFIX,llamaindex.ai
+
+# Pinecone (Vector DB for AI)
+DOMAIN-SUFFIX,pinecone.io
+
+# Weaviate (Vector DB)
+DOMAIN-SUFFIX,weaviate.io
+
+# Chroma (Vector DB)
+DOMAIN-SUFFIX,trychroma.com
+
+# Milvus (Vector DB)
+DOMAIN-SUFFIX,milvus.io
+
+# Qdrant (Vector DB)
+DOMAIN-SUFFIX,qdrant.tech
+
+# Together AI
+DOMAIN-SUFFIX,together.ai
+DOMAIN-SUFFIX,together.xyz
+
+# Anyscale
+DOMAIN-SUFFIX,anyscale.com
+
+# Modal
+DOMAIN-SUFFIX,modal.com
+
+# Baseten
+DOMAIN-SUFFIX,baseten.co
+
+# Banana
+DOMAIN-SUFFIX,banana.dev
+
+# Steamship
+DOMAIN-SUFFIX,steamship.com
+
+# LangFlow
+DOMAIN-SUFFIX,langflow.org
+
+# Flowise
+DOMAIN-SUFFIX,flowiseai.com
+
+# Dust
+DOMAIN-SUFFIX,dust.tt
+
+# Fixie
+DOMAIN-SUFFIX,fixie.ai
+
+# Steamship
+DOMAIN-SUFFIX,steamship.com

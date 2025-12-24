@@ -1,0 +1,313 @@
+# NAME: Social_Custom
+# AUTHOR: Custom
+# UPDATED: 2025-11-30
+# DESCRIPTION: Comprehensive social media platforms
+
+# Twitter / X (additional domains)
+DOMAIN-SUFFIX,x.com
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,twitter.jp
+
+# Facebook (additional domains)
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,facebook.net
+DOMAIN-SUFFIX,fb.com
+DOMAIN-SUFFIX,fb.me
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,fbsbx.com
+DOMAIN-SUFFIX,messenger.com
+DOMAIN-SUFFIX,m.me
+
+# Instagram (additional domains)
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,instagr.am
+
+# WhatsApp
+DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,whatsapp.net
+DOMAIN-SUFFIX,wa.me
+
+# Threads
+DOMAIN-SUFFIX,threads.net
+
+# LinkedIn
+DOMAIN-SUFFIX,linkedin.com
+DOMAIN-SUFFIX,licdn.com
+
+# Reddit
+DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,redd.it
+DOMAIN-SUFFIX,redditmedia.com
+DOMAIN-SUFFIX,redditstatic.com
+
+# Pinterest
+DOMAIN-SUFFIX,pinterest.com
+DOMAIN-SUFFIX,pinimg.com
+
+# Snapchat
+DOMAIN-SUFFIX,snapchat.com
+DOMAIN-SUFFIX,sc-cdn.net
+DOMAIN-SUFFIX,snap.com
+
+# Discord
+DOMAIN-SUFFIX,discord.com
+DOMAIN-SUFFIX,discord.gg
+DOMAIN-SUFFIX,discordapp.com
+DOMAIN-SUFFIX,discordapp.net
+DOMAIN-SUFFIX,discord.media
+
+# Slack
+DOMAIN-SUFFIX,slack.com
+DOMAIN-SUFFIX,slack-edge.com
+DOMAIN-SUFFIX,slack-imgs.com
+
+# Telegram (additional domains)
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,telegra.ph
+DOMAIN-SUFFIX,telesco.pe
+
+# Signal
+DOMAIN-SUFFIX,signal.org
+DOMAIN-SUFFIX,signal.me
+
+# Mastodon
+DOMAIN-SUFFIX,mastodon.social
+DOMAIN-SUFFIX,mastodon.online
+DOMAIN-SUFFIX,mstdn.social
+
+# Bluesky
+DOMAIN-SUFFIX,bsky.app
+DOMAIN-SUFFIX,bsky.social
+
+# Tumblr
+DOMAIN-SUFFIX,tumblr.com
+DOMAIN-SUFFIX,tmblr.co
+
+# Flickr
+DOMAIN-SUFFIX,flickr.com
+DOMAIN-SUFFIX,staticflickr.com
+
+# Medium
+DOMAIN-SUFFIX,medium.com
+
+# Substack
+DOMAIN-SUFFIX,substack.com
+
+# Patreon
+DOMAIN-SUFFIX,patreon.com
+
+# Ko-fi
+DOMAIN-SUFFIX,ko-fi.com
+
+# Buy Me a Coffee
+DOMAIN-SUFFIX,buymeacoffee.com
+
+# Linktree
+DOMAIN-SUFFIX,linktr.ee
+
+# Beacons
+DOMAIN-SUFFIX,beacons.ai
+
+# Clubhouse
+DOMAIN-SUFFIX,clubhouse.com
+
+# Nextdoor
+DOMAIN-SUFFIX,nextdoor.com
+
+# Meetup
+DOMAIN-SUFFIX,meetup.com
+
+# Eventbrite
+DOMAIN-SUFFIX,eventbrite.com
+
+# Quora
+DOMAIN-SUFFIX,quora.com
+
+# Stack Overflow
+DOMAIN-SUFFIX,stackoverflow.com
+DOMAIN-SUFFIX,stackexchange.com
+
+# Hacker News
+DOMAIN-SUFFIX,ycombinator.com
+
+# Product Hunt
+DOMAIN-SUFFIX,producthunt.com
+
+# Dribbble
+DOMAIN-SUFFIX,dribbble.com
+
+# Behance
+DOMAIN-SUFFIX,behance.net
+
+# DeviantArt
+DOMAIN-SUFFIX,deviantart.com
+
+# ArtStation
+DOMAIN-SUFFIX,artstation.com
+
+# 500px
+DOMAIN-SUFFIX,500px.com
+
+# Unsplash
+DOMAIN-SUFFIX,unsplash.com
+
+# Pexels
+DOMAIN-SUFFIX,pexels.com
+
+# Pixabay
+DOMAIN-SUFFIX,pixabay.com
+
+# Imgur
+DOMAIN-SUFFIX,imgur.com
+
+# Giphy
+DOMAIN-SUFFIX,giphy.com
+
+# Tenor
+DOMAIN-SUFFIX,tenor.com
+
+# VK (VKontakte)
+DOMAIN-SUFFIX,vk.com
+DOMAIN-SUFFIX,vk.me
+
+# OK.ru (Odnoklassniki)
+DOMAIN-SUFFIX,ok.ru
+
+# Line
+DOMAIN-SUFFIX,line.me
+DOMAIN-SUFFIX,line-apps.com
+DOMAIN-SUFFIX,line-scdn.net
+
+# KakaoTalk
+DOMAIN-SUFFIX,kakao.com
+DOMAIN-SUFFIX,kakaocdn.net
+
+# Viber
+DOMAIN-SUFFIX,viber.com
+
+# WeChat (international)
+DOMAIN-SUFFIX,wechat.com
+
+# Skype
+DOMAIN-SUFFIX,skype.com
+
+# Zoom
+DOMAIN-SUFFIX,zoom.us
+DOMAIN-SUFFIX,zoom.com
+
+# Microsoft Teams
+DOMAIN-SUFFIX,teams.microsoft.com
+
+# Google Meet
+DOMAIN-SUFFIX,meet.google.com
+
+# Webex
+DOMAIN-SUFFIX,webex.com
+
+# GoToMeeting
+DOMAIN-SUFFIX,gotomeeting.com
+
+# Jitsi
+DOMAIN-SUFFIX,jitsi.org
+DOMAIN-SUFFIX,meet.jit.si
+
+# 8x8
+DOMAIN-SUFFIX,8x8.com
+
+# RingCentral
+DOMAIN-SUFFIX,ringcentral.com
+
+# Whereby
+DOMAIN-SUFFIX,whereby.com
+
+# Around
+DOMAIN-SUFFIX,around.co
+
+# Loom
+DOMAIN-SUFFIX,loom.com
+
+# Vimeo (social features)
+DOMAIN-SUFFIX,vimeo.com
+
+# Twitch (social features)
+DOMAIN-SUFFIX,twitch.tv
+
+# Kick
+DOMAIN-SUFFIX,kick.com
+
+# Rumble
+DOMAIN-SUFFIX,rumble.com
+
+# Odysee
+DOMAIN-SUFFIX,odysee.com
+
+# BitChute
+DOMAIN-SUFFIX,bitchute.com
+
+# Gab
+DOMAIN-SUFFIX,gab.com
+
+# Parler
+DOMAIN-SUFFIX,parler.com
+
+# Truth Social
+DOMAIN-SUFFIX,truthsocial.com
+
+# Gettr
+DOMAIN-SUFFIX,gettr.com
+
+# MeWe
+DOMAIN-SUFFIX,mewe.com
+
+# Minds
+DOMAIN-SUFFIX,minds.com
+
+# Diaspora
+DOMAIN-SUFFIX,diasporafoundation.org
+
+# Ello
+DOMAIN-SUFFIX,ello.co
+
+# Vero
+DOMAIN-SUFFIX,vero.co
+
+# Caffeine
+DOMAIN-SUFFIX,caffeine.tv
+
+# Triller
+DOMAIN-SUFFIX,triller.co
+
+# Likee
+DOMAIN-SUFFIX,likee.video
+
+# Kwai
+DOMAIN-SUFFIX,kwai.com
+
+# Hive Social
+DOMAIN-SUFFIX,hivesocial.app
+
+# Post.news
+DOMAIN-SUFFIX,post.news
+
+# Spill
+DOMAIN-SUFFIX,spill.it
+
+# T2 Social
+DOMAIN-SUFFIX,t2.social
+
+# Cohost
+DOMAIN-SUFFIX,cohost.org
+
+# Pillowfort
+DOMAIN-SUFFIX,pillowfort.social
+
+# Dreamwidth
+DOMAIN-SUFFIX,dreamwidth.org
+
+# LiveJournal
+DOMAIN-SUFFIX,livejournal.com

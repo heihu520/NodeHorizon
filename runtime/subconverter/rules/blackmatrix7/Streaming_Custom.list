@@ -1,0 +1,346 @@
+# NAME: Streaming_Custom
+# AUTHOR: Custom
+# UPDATED: 2025-11-30
+# DESCRIPTION: Comprehensive international streaming media services
+
+# YouTube (additional domains)
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,youtube-nocookie.com
+DOMAIN-SUFFIX,youtubei.googleapis.com
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,yt3.ggpht.com
+DOMAIN-SUFFIX,googlevideo.com
+
+# Netflix (additional domains)
+DOMAIN-SUFFIX,nflxext.com
+DOMAIN-SUFFIX,nflximg.com
+DOMAIN-SUFFIX,nflximg.net
+DOMAIN-SUFFIX,nflxso.net
+DOMAIN-SUFFIX,nflxvideo.net
+DOMAIN-SUFFIX,netflixdnstest0.com
+DOMAIN-SUFFIX,netflixdnstest1.com
+DOMAIN-SUFFIX,netflixdnstest2.com
+
+# Disney+ (additional domains)
+DOMAIN-SUFFIX,disneyplus.com
+DOMAIN-SUFFIX,disney-plus.net
+DOMAIN-SUFFIX,disneystreaming.com
+DOMAIN-SUFFIX,dssott.com
+DOMAIN-SUFFIX,bamgrid.com
+
+# HBO Max / Max
+DOMAIN-SUFFIX,hbo.com
+DOMAIN-SUFFIX,hbogo.com
+DOMAIN-SUFFIX,hbomax.com
+DOMAIN-SUFFIX,hbonow.com
+DOMAIN-SUFFIX,max.com
+
+# Amazon Prime Video
+DOMAIN-SUFFIX,primevideo.com
+DOMAIN-SUFFIX,amazonvideo.com
+DOMAIN-SUFFIX,media-amazon.com
+DOMAIN-SUFFIX,aiv-cdn.net
+DOMAIN-SUFFIX,aiv-delivery.net
+
+# Apple TV+
+DOMAIN-SUFFIX,tv.apple.com
+DOMAIN-SUFFIX,appletvplus.com
+
+# Hulu
+DOMAIN-SUFFIX,hulu.com
+DOMAIN-SUFFIX,huluim.com
+DOMAIN-SUFFIX,hulustream.com
+
+# Paramount+
+DOMAIN-SUFFIX,paramountplus.com
+DOMAIN-SUFFIX,cbsi.com
+DOMAIN-SUFFIX,cbsaavideo.com
+DOMAIN-SUFFIX,cbsivideo.com
+
+# Peacock
+DOMAIN-SUFFIX,peacocktv.com
+DOMAIN-SUFFIX,peacock.com
+
+# Discovery+
+DOMAIN-SUFFIX,discoveryplus.com
+DOMAIN-SUFFIX,discovery.com
+DOMAIN-SUFFIX,dplay.com
+
+# Twitch
+DOMAIN-SUFFIX,twitch.tv
+DOMAIN-SUFFIX,twitchcdn.net
+DOMAIN-SUFFIX,twitch.a2z.com
+DOMAIN-SUFFIX,jtvnw.net
+
+# TikTok
+DOMAIN-SUFFIX,tiktok.com
+DOMAIN-SUFFIX,tiktokcdn.com
+DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-SUFFIX,musical.ly
+DOMAIN-SUFFIX,byteoversea.com
+DOMAIN-SUFFIX,ibytedtos.com
+
+# Vimeo
+DOMAIN-SUFFIX,vimeo.com
+DOMAIN-SUFFIX,vimeocdn.com
+
+# Dailymotion
+DOMAIN-SUFFIX,dailymotion.com
+DOMAIN-SUFFIX,dmcdn.net
+
+# Crunchyroll
+DOMAIN-SUFFIX,crunchyroll.com
+DOMAIN-SUFFIX,vrv.co
+
+# Funimation
+DOMAIN-SUFFIX,funimation.com
+DOMAIN-SUFFIX,funimationdigital.com
+
+# Plex
+DOMAIN-SUFFIX,plex.tv
+DOMAIN-SUFFIX,plex.direct
+
+# Emby
+DOMAIN-SUFFIX,emby.media
+DOMAIN-SUFFIX,embyserver.media
+
+# Jellyfin
+DOMAIN-SUFFIX,jellyfin.org
+
+# SoundCloud
+DOMAIN-SUFFIX,soundcloud.com
+DOMAIN-SUFFIX,sndcdn.com
+
+# Pandora
+DOMAIN-SUFFIX,pandora.com
+DOMAIN-SUFFIX,pandora.net
+
+# Deezer
+DOMAIN-SUFFIX,deezer.com
+DOMAIN-SUFFIX,dzcdn.net
+
+# Tidal
+DOMAIN-SUFFIX,tidal.com
+DOMAIN-SUFFIX,tidalhifi.com
+
+# Apple Music
+DOMAIN-SUFFIX,music.apple.com
+
+# YouTube Music
+DOMAIN-SUFFIX,music.youtube.com
+
+# Amazon Music
+DOMAIN-SUFFIX,music.amazon.com
+
+# Viu
+DOMAIN-SUFFIX,viu.com
+DOMAIN-SUFFIX,viu.tv
+
+# iflix
+DOMAIN-SUFFIX,iflix.com
+
+# Hotstar
+DOMAIN-SUFFIX,hotstar.com
+DOMAIN-SUFFIX,hotstar.live
+
+# Zee5
+DOMAIN-SUFFIX,zee5.com
+
+# SonyLIV
+DOMAIN-SUFFIX,sonyliv.com
+
+# Voot
+DOMAIN-SUFFIX,voot.com
+
+# MX Player
+DOMAIN-SUFFIX,mxplayer.in
+
+# Eros Now
+DOMAIN-SUFFIX,erosnow.com
+
+# ALTBalaji
+DOMAIN-SUFFIX,altbalaji.com
+
+# Hooq
+DOMAIN-SUFFIX,hooq.tv
+
+# Wavve
+DOMAIN-SUFFIX,wavve.com
+
+# TVING
+DOMAIN-SUFFIX,tving.com
+
+# Watcha
+DOMAIN-SUFFIX,watcha.com
+
+# AbemaTV
+DOMAIN-SUFFIX,abema.tv
+DOMAIN-SUFFIX,abema.io
+
+# Niconico
+DOMAIN-SUFFIX,nicovideo.jp
+DOMAIN-SUFFIX,niconico.com
+
+# GYAO!
+DOMAIN-SUFFIX,gyao.yahoo.co.jp
+
+# U-NEXT
+DOMAIN-SUFFIX,unext.jp
+
+# Paravi
+DOMAIN-SUFFIX,paravi.jp
+
+# FOD
+DOMAIN-SUFFIX,fod.fujitv.co.jp
+
+# TVer
+DOMAIN-SUFFIX,tver.jp
+
+# DAZN
+DOMAIN-SUFFIX,dazn.com
+DOMAIN-SUFFIX,dazndn.com
+
+# ESPN+
+DOMAIN-SUFFIX,espn.com
+DOMAIN-SUFFIX,espncdn.com
+
+# fuboTV
+DOMAIN-SUFFIX,fubo.tv
+DOMAIN-SUFFIX,fubotv.com
+
+# Sling TV
+DOMAIN-SUFFIX,sling.com
+DOMAIN-SUFFIX,slingtv.com
+
+# YouTube TV
+DOMAIN-SUFFIX,tv.youtube.com
+
+# Pluto TV
+DOMAIN-SUFFIX,pluto.tv
+DOMAIN-SUFFIX,plutotv.net
+
+# Tubi
+DOMAIN-SUFFIX,tubi.tv
+DOMAIN-SUFFIX,tubitv.com
+
+# Crackle
+DOMAIN-SUFFIX,crackle.com
+
+# Vudu
+DOMAIN-SUFFIX,vudu.com
+
+# Rakuten TV
+DOMAIN-SUFFIX,rakuten.tv
+
+# Now TV
+DOMAIN-SUFFIX,nowtv.com
+
+# Stan
+DOMAIN-SUFFIX,stan.com.au
+
+# Binge
+DOMAIN-SUFFIX,binge.com.au
+
+# Kayo Sports
+DOMAIN-SUFFIX,kayosports.com.au
+
+# Optus Sport
+DOMAIN-SUFFIX,optussport.com.au
+
+# Foxtel
+DOMAIN-SUFFIX,foxtel.com.au
+
+# Sky
+DOMAIN-SUFFIX,sky.com
+DOMAIN-SUFFIX,skygo.co.nz
+
+# Showtime
+DOMAIN-SUFFIX,showtime.com
+DOMAIN-SUFFIX,sho.com
+
+# Starz
+DOMAIN-SUFFIX,starz.com
+
+# Cinemax
+DOMAIN-SUFFIX,cinemax.com
+
+# MGM+
+DOMAIN-SUFFIX,mgmplus.com
+DOMAIN-SUFFIX,epix.com
+
+# AMC+
+DOMAIN-SUFFIX,amcplus.com
+DOMAIN-SUFFIX,amc.com
+
+# Shudder
+DOMAIN-SUFFIX,shudder.com
+
+# Sundance Now
+DOMAIN-SUFFIX,sundancenow.com
+
+# Acorn TV
+DOMAIN-SUFFIX,acorn.tv
+
+# BritBox
+DOMAIN-SUFFIX,britbox.com
+
+# Criterion Channel
+DOMAIN-SUFFIX,criterionchannel.com
+
+# Mubi
+DOMAIN-SUFFIX,mubi.com
+
+# Kanopy
+DOMAIN-SUFFIX,kanopy.com
+
+# Hoopla
+DOMAIN-SUFFIX,hoopladigital.com
+
+# OverDrive
+DOMAIN-SUFFIX,overdrive.com
+
+# Libby
+DOMAIN-SUFFIX,libbyapp.com
+
+# Audible
+DOMAIN-SUFFIX,audible.com
+DOMAIN-SUFFIX,audible.co.uk
+
+# Scribd
+DOMAIN-SUFFIX,scribd.com
+
+# Blinkist
+DOMAIN-SUFFIX,blinkist.com
+
+# MasterClass
+DOMAIN-SUFFIX,masterclass.com
+
+# Skillshare
+DOMAIN-SUFFIX,skillshare.com
+
+# Coursera
+DOMAIN-SUFFIX,coursera.org
+
+# Udemy
+DOMAIN-SUFFIX,udemy.com
+
+# LinkedIn Learning
+DOMAIN-SUFFIX,linkedin.com
+
+# Pluralsight
+DOMAIN-SUFFIX,pluralsight.com
+
+# Codecademy
+DOMAIN-SUFFIX,codecademy.com
+
+# Khan Academy
+DOMAIN-SUFFIX,khanacademy.org
+
+# edX
+DOMAIN-SUFFIX,edx.org
+
+# FutureLearn
+DOMAIN-SUFFIX,futurelearn.com
+
+# Domestika
+DOMAIN-SUFFIX,domestika.org
