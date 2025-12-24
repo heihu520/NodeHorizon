@@ -1,3 +1,0 @@
-- [ ] Launch NodeHorizon.exe and check for immediate exit/crash
-- [ ] Inspect `workflow.log` for startup errors
-- [ ] Verify `my-config.json` validity
